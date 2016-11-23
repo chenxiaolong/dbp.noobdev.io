@@ -22,6 +22,7 @@
 import argparse
 import distutils.core
 import errno
+import htmlmin
 import jinja2
 import json
 import os
@@ -255,7 +256,8 @@ def makedirs_if_not_exist(path):
 
 
 def generate_tree(git_dir=None, script_dir=None, files_dir=None,
-                  target_dir=None, devices_file=None, items_per_page=10):
+                  target_dir=None, devices_file=None, items_per_page=10,
+                  minify=True):
     if not all([git_dir, script_dir, files_dir, target_dir, devices_file]):
         raise ValueError('Missing arguments')
 
@@ -281,7 +283,9 @@ def generate_tree(git_dir=None, script_dir=None, files_dir=None,
     # Generate index.html
     with open(os.path.join(target_dir, 'index.html'), 'wb') as f:
         template = env.get_template('index.html.j2')
-        html = template.render(builds=builds)
+        html = template.render(builds=builds, devices=devices)
+        if minify:
+            html = htmlmin.minify(html, remove_comments=True)
         f.write(html.encode('UTF-8'))
 
     # Create downloads directory
@@ -303,12 +307,16 @@ def generate_tree(git_dir=None, script_dir=None, files_dir=None,
             template = env.get_template('download_page.html.j2')
             html = template.render(builds=builds[begin:end],
                                    page_number=(i + 1), total_pages=num_pages)
+            if minify:
+                html = htmlmin.minify(html, remove_comments=True)
             f.write(html.encode('UTF-8'))
 
     # Generate supported_devices.html
     with open(os.path.join(target_dir, 'supported_devices.html'), 'wb') as f:
         template = env.get_template('supported_devices.html.j2')
         html = template.render(builds=builds, devices=devices)
+        if minify:
+            html = htmlmin.minify(html, remove_comments=True)
         f.write(html.encode('UTF-8'))
 
 
@@ -356,6 +364,8 @@ def main():
                         help='Device definitions file')
     parser.add_argument('--items-per-page', type=check_positive, default=10,
                         help='Builds per download page')
+    parser.add_argument('--no-minify', action='store_true', default=False,
+                        help='Don\'t minify HTML output')
 
     args = parser.parse_args()
 
@@ -372,7 +382,8 @@ def main():
                       files_dir=files_dir,
                       target_dir=temp_dir,
                       devices_file=args.devices_file,
-                      items_per_page=args.items_per_page)
+                      items_per_page=args.items_per_page,
+                      minify=not args.no_minify)
 
         # Copy resources
         distutils.dir_util.copy_tree(
