@@ -1,0 +1,37 @@
+body {
+    padding-top: 80px;
+    padding-bottom: 20px;
+    font-family: RobotoDraft, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+iframe, img, embed {
+    border: none;
+}
+
+/* Small Devices */
+@media (max-width: 1200px) {
+    body {
+        padding-top: 70px;
+    }
+}
+
+.panel-title {
+    font-size: 20px;
+}
+
+.commit-link {
+    font-family: monospace;
+    font-weight: 100;
+}
+
+.force-wrap {
+    word-wrap: break-word;
+}
+
+.expand-column {
+    width: 100%;
+}
+
+.centered-image {
+    margin: 0 auto;
+}

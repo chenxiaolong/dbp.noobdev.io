@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+{% set site_root = '../' %}
+{% set page = 'downloads' %}
+<html>
+    <head>
+        {% include 'snippets/head-common.html.j2' %}
+        <title>DualBootPatcher Downloads</title>
+    </head>
+    <body>
+        {% include 'snippets/nav.html.j2' %}
+
+        <div class="container">
+            <div class="jumbotron">
+                <h1 style="font-weight:400;">Downloads</h1>
+                <p style="font-weight:400;">Below are releases automatically built from the <code>master</code> branch by the continuous integration server. Due to the constantly changing nature of the ROM development community, DualBootPatcher has many incremental releases as opposed to large, infrequent releases. These releases contain the latest and greatest features, but may also have unforeseen bugs. Be sure to make backup before installing and using these builds!</p>
+            </div>
+
+            <div class="panel panel-warning">
+                <div class="panel-heading">
+                    <h2 class="panel-title">Reporting issues</h2>
+                </div>
+                <div class="panel-body">
+                    <p>GetLogs zip: <a href="https://dbp.noobdev.io/misc/getlogs/GetLogs-20161019-2.zip">GetLogs-20161019-2.zip</a>
+                    <br /><br />
+                    If a multi-booted ROM is unable to boot, logs will be needed for debugging the issue. Please reboot into recovery without shutting down the device (ie. no removing the battery) and flash the GetLogs zip. This must be done immediately following the boot failure because some logs will be lost after a reboot. The zip will save many logs from /sdcard/MultiBoot and device information from /dev, /proc, and /sys to <code>/sdcard/logs/[Date&amp;Time].tar</code>. Please attach this tar archive when reporting an issue.
+                    <br /><br />
+                    Also, state whether the ROM reboots or hangs at the manufaturer logo or the ROM's boot animation. If the ROM reboots, please state whether it reboots into recovery or not.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container" id="builds">
+            {% for build in builds %}
+                <div class="panel panel-success">
+                    <!-- Version and timestamp of build -->
+                    <div class="panel-heading">
+                        <h2 class="panel-title">{{ build.version | e }}<p class="visible-xs"></p> <small>{{ build.timestamp | e }}</small></h2>
+                    </div>
+                    <div class="panel-body">
+                        <h4>Files:</h4>
+                        <ul>
+                            <!-- List of downloads for the build -->
+                            {% for file_info in build.files %}
+                                <li>
+                                    <!-- For extra-small devices -->
+                                    <div class="visible-xs">
+                                        <a href="{{ site_root }}/files/{{ file_info.path | e }}">{{ file_info.variant | e }}</a>
+                                        {% if 'md5' in file_info.checksums %}
+                                            | <a href="{{ site_root }}/files/{{ file_info.checksums.md5 | e }}">MD5</a>
+                                        {% endif %}
+                                        {% if 'sha1' in file_info.checksums %}
+                                            | <a href="{{ site_root }}/files/{{ file_info.checksums.sha1 | e }}">SHA1</a>
+                                        {% endif %}
+                                        {% if 'sha512' in file_info.checksums %}
+                                            | <a href="{{ site_root }}/files/{{ file_info.checksums.sha512 | e }}">SHA512</a>
+                                        {% endif %}
+                                        ({{ file_info.size | human_size | e }})
+                                    </div>
+                                    <!-- For non-extra-small devices -->
+                                    <div class="hidden-xs">
+                                        {{ file_info.variant | e }}: <a href="{{ site_root }}/files/{{ file_info.path | e }}">{{ file_info.name | e }}</a>
+                                        {% if 'md5' in file_info.checksums %}
+                                            | <a href="{{ site_root }}/files/{{ file_info.checksums.md5 | e }}">MD5</a>
+                                        {% endif %}
+                                        {% if 'sha1' in file_info.checksums %}
+                                            | <a href="{{ site_root }}/files/{{ file_info.checksums.sha1 | e }}">SHA1</a>
+                                        {% endif %}
+                                        {% if 'sha512' in file_info.checksums %}
+                                            | <a href="{{ site_root }}/files/{{ file_info.checksums.sha512 | e }}">SHA512</a>
+                                        {% endif %}
+                                        ({{ file_info.size | human_size | e }})
+                                    </div>
+                                </li>
+                            {% endfor %}
+                        </ul>
+                        <h4>Changelog:</h4>
+                        {% if build.commits %}
+                            <table class="table table-striped table-hover">
+                                <thead>
+                                    <tr>
+                                        <th>Commit</th>
+                                        <th class="expand-column">Description</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {% for commit in build.commits %}
+                                        <tr>
+                                            <td><a class="commit-link" href="https://github.com/chenxiaolong/DualBootPatcher/commit/{{ commit.id | e }}">{{ commit.short_id | e }}</a></td>
+                                            <td class="expand-column force-wrap">{{ commit.message | e }}</td>
+                                        </tr>
+                                    {% endfor %}
+                                </tbody>
+                            </table>
+                        {% else %}
+                            <p>An earlier build is needed to generate a changelog</p>
+                        {% endif %}
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+
+        {% if total_pages > 1 %}
+            <div class="container">
+                <ul class="pagination">
+                    {% if page_number != 1 %}
+                        <li><a href="{{ 1 | download_page }}#builds">First</a></li>
+                        <li><a href="{{ (page_number - 1) | download_page }}#builds">&lt;</a></li>
+                    {% endif %}
+
+                    {% for i in range((1, page_number - 2) | max, (total_pages, page_number + 2) | min + 1) %}
+                        {% if i == page_number %}
+                            <li class="active"><a>{{ i }}</a></li>
+                        {% else %}
+                            <li><a href="{{ i | download_page }}#builds">{{ i }}</a></li>
+                        {% endif %}
+                    {% endfor %}
+
+                    {% if page_number != total_pages %}
+                        <li><a href="{{ (page_number + 1) | download_page }}#builds">&gt;</a></li>
+                        <li><a href="{{ total_pages | download_page }}#builds">Last</a></li>
+                    {% endif %}
+                </ul>
+            </div>
+        {% endif %}
+
+        {% include 'snippets/body-js-common.html.j2' %}
+    </body>
+</html>
+

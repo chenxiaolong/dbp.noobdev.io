@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+{% set site_root = './' %}
+<html>
+    <head>
+        {% include 'snippets/head-common.html.j2' %}
+        <title>DualBootPatcher</title>
+    </head>
+    <body>
+        {% include 'snippets/nav.html.j2' %}
+
+        <div class="container">
+            <div class="jumbotron">
+                <p><img class="centered-image img-responsive" src="{{ site_root }}res/images/logo.png"></p>
+                <h2 style="font-weight:400; text-align: center;">DualBootPatcher</h2>
+                <p style="font-weight:400;">DualBootPatcher is an open-source app that allows multiple ROMs to be installed on a single Android device. It does its best to work with existing code and does not require explicit support from ROMs. There are currently <a href="{{ site_root }}/supported_devices.html">{{ devices | length }}</a> supported devices and their variations.</p>
+                {% if builds | length > 0 %}
+                    <p style="text-align: center;">Latest build: <a href="{{ site_root }}downloads/"><code>{{ builds[0].version | e }}</code></a></p>
+                {% endif %}
+            </div>
+        </div>
+
+        {% include 'snippets/body-js-common.html.j2' %}
+    </body>
+</html>
+

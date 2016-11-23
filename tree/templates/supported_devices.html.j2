@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+{% set site_root = '../' %}
+{% set page = 'supported_devices' %}
+<html>
+    <head>
+        {% include 'snippets/head-common.html.j2' %}
+        <title>DualBootPatcher Supported Devices</title>
+
+        <style>
+        /*
+        .device-info-toggle:focus {
+            outline: none;
+        }
+        */
+
+        a.device-info-toggle {
+            /* border: none; */
+            outline: none;
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .device-info-key {
+            font-weight: bold;
+        }
+        </style>
+    </head>
+    <body>
+        {% include 'snippets/nav.html.j2' %}
+
+        <div class="container">
+            <div class="jumbotron">
+                <h1 style="font-weight:400;">Supported devices</h1>
+                <p style="font-weight:400;">The following is a complete list of evey device supported by the latest build {% if builds | length > 0 %}(<a href="downloads/"><code>{{ builds[0].version | e }}</code></a>) {% endif %}of DualBootPatcher.</p>
+            </div>
+        </div>
+
+        <div class="container" id="builds">
+            {% for device in devices %}
+                <div class="panel-group">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <h2 class="panel-title"><a class="device-info-toggle" data-toggle="collapse" href="#device_info_{{ loop.index0 }}">{{ device.name }}</a></h2>
+                        </div>
+                        <div id="device_info_{{ loop.index0 }}" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <h4>General information:</h4>
+
+                                <p>
+                                    <span class="device-info-key">Device ID:</span>
+                                    {{ device.id | e }}
+                                </p>
+                                <p>
+                                    <span class="device-info-key">Codenames:</span>
+                                    {% for codename in device.codenames %}
+                                        {{ codename | e }}{% if not loop.last %},{% endif %}
+                                    {% endfor %}
+                                </p>
+                                <p>
+                                    <span class="device-info-key">Architecture:</span>
+                                    {{ device.architecture | e }}
+                                </p>
+
+                                <hr>
+
+                                <h4>Block device paths</h4>
+
+                                {% if device.block_devs.base_dirs is defined %}
+                                    <p>
+                                        <span class="device-info-key">Base directories:</span>
+                                        <ul>
+                                            {% for path in device.block_devs.base_dirs %}
+                                                <li><code>{{ path | e }}</code></li>
+                                            {% endfor %}
+                                        </ul>
+                                    </p>
+                                {% endif %}
+                                {% if device.block_devs.system is defined %}
+                                    <p>
+                                        <span class="device-info-key">/system block devices:</span>
+                                        <ul>
+                                            {% for path in device.block_devs.system %}
+                                                <li><code>{{ path | e }}</code></li>
+                                            {% endfor %}
+                                        </ul>
+                                    </p>
+                                {% endif %}
+                                {% if device.block_devs.cache is defined %}
+                                    <p>
+                                        <span class="device-info-key">/cache block devices:</span>
+                                        <ul>
+                                            {% for path in device.block_devs.cache %}
+                                                <li><code>{{ path | e }}</code></li>
+                                            {% endfor %}
+                                        </ul>
+                                    </p>
+                                {% endif %}
+                                {% if device.block_devs.data is defined %}
+                                    <p>
+                                        <span class="device-info-key">/data block devices:</span>
+                                        <ul>
+                                            {% for path in device.block_devs.data %}
+                                                <li><code>{{ path | e }}</code></li>
+                                            {% endfor %}
+                                        </ul>
+                                    </p>
+                                {% endif %}
+                                {% if device.block_devs.boot is defined %}
+                                    <p>
+                                        <span class="device-info-key">Boot partition block devices:</span>
+                                        <ul>
+                                            {% for path in device.block_devs.boot %}
+                                                <li><code>{{ path | e }}</code></li>
+                                            {% endfor %}
+                                        </ul>
+                                    </p>
+                                {% endif %}
+                                {% if device.block_devs.recovery is defined %}
+                                    <p>
+                                        <span class="device-info-key">Recovery partition block devices:</span>
+                                        <ul>
+                                            {% for path in device.block_devs.recovery %}
+                                                <li><code>{{ path | e }}</code></li>
+                                            {% endfor %}
+                                        </ul>
+                                    </p>
+                                {% endif %}
+                                {% if device.block_devs.extra is defined %}
+                                    <p>
+                                        <span class="device-info-key">Extra block devices available for flashing:</span>
+                                        <ul>
+                                            {% for path in device.block_devs.extra %}
+                                                <li><code>{{ path | e }}</code></li>
+                                            {% endfor %}
+                                        </ul>
+                                    </p>
+                                {% endif %}
+
+                                <hr>
+
+                                <h4>Boot UI</h4>
+
+                                <p>
+                                    <span class="device-info-key">Supported:</span>
+                                    {% if device.boot_ui is defined and device.boot_ui.supported %}yes{% else %}no{% endif %}
+                                </p>
+                                {% if device.boot_ui is defined and device.boot_ui.supported %}
+                                    {% if device.boot_ui.flags is defined and device.boot_ui.flags %}
+                                        <p>
+                                            <span class="device-info-key">Flags:</span>
+                                            <ul>
+                                                {% for flag in device.boot_ui.flags %}
+                                                    <li>{{ flag | e }}</li>
+                                                {% endfor %}
+                                            </ul>
+                                        </p>
+                                    {% endif %}
+                                    {% if device.boot_ui.pixel_format is defined and device.boot_ui.pixel_format %}
+                                        <p>
+                                            <span class="device-info-key">Pixel format:</span>
+                                            {{ device.boot_ui.pixel_format | e }}
+                                        </p>
+                                    {% endif %}
+                                    {% if device.boot_ui.force_pixel_format is defined and device.boot_ui.force_pixel_format %}
+                                        <p>
+                                            <span class="device-info-key">Force pixel format:</span>
+                                            {{ device.boot_ui.force_pixel_format | e }}
+                                        </p>
+                                    {% endif %}
+                                    {% if device.boot_ui.overscan_percent is defined and device.boot_ui.overscan_percent %}
+                                        <p>
+                                            <span class="device-info-key">Overscan percentage:</span>
+                                            {{ device.boot_ui.overscan_percent | e }}%
+                                        </p>
+                                    {% endif %}
+                                    {% if device.boot_ui.default_x_offset is defined and device.boot_ui.default_x_offset %}
+                                        <p>
+                                            <span class="device-info-key">Default X offset:</span>
+                                            {{ device.boot_ui.default_x_offset | e }}px
+                                        </p>
+                                    {% endif %}
+                                    {% if device.boot_ui.default_y_offset is defined and device.boot_ui.default_y_offset %}
+                                        <p>
+                                            <span class="device-info-key">Default Y offset:</span>
+                                            {{ device.boot_ui.default_y_offset | e }}px
+                                        </p>
+                                    {% endif %}
+                                    {% if device.boot_ui.brightness_path is defined and device.boot_ui.brightness_path %}
+                                        <p>
+                                            <span class="device-info-key">Brightness sysfs path:</span>
+                                            <code>{{ device.boot_ui.brightness_path | e }}</code>
+                                        </p>
+                                    {% endif %}
+                                    {% if device.boot_ui.secondary_brightness_path is defined and device.boot_ui.secondary_brightness_path %}
+                                        <p>
+                                            <span class="device-info-key">Secondary brightness sysfs path:</span>
+                                            <code>{{ device.boot_ui.secondary_brightness_path | e }}</code>
+                                        </p>
+                                    {% endif %}
+                                    {% if device.boot_ui.max_brightness is defined and device.boot_ui.max_brightness %}
+                                        <p>
+                                            <span class="device-info-key">Maximum brightness:</span>
+                                            {{ device.boot_ui.max_brightness | e }}
+                                        </p>
+                                    {% endif %}
+                                    {% if device.boot_ui.default_brightness is defined and device.boot_ui.default_brightness %}
+                                        <p>
+                                            <span class="device-info-key">Default brightness:</span>
+                                            {{ device.boot_ui.default_brightness | e }}
+                                        </p>
+                                    {% endif %}
+                                    {% if device.boot_ui.battery_path is defined and device.boot_ui.battery_path %}
+                                        <p>
+                                            <span class="device-info-key">Battery sysfs path:</span>
+                                            <code>{{ device.boot_ui.battery_path | e }}</code>
+                                        </p>
+                                    {% endif %}
+                                    {% if device.boot_ui.cpu_temp_path is defined and device.boot_ui.cpu_temp_path %}
+                                        <p>
+                                            <span class="device-info-key">CPU temperature sysfs path:</span>
+                                            <code>{{ device.boot_ui.cpu_temp_path | e }}</code>
+                                        </p>
+                                    {% endif %}
+                                    {% if device.boot_ui.input_blacklist is defined and device.boot_ui.input_blacklist %}
+                                        <p>
+                                            <span class="device-info-key">Input device blacklist:</span>
+                                            <code>{{ device.boot_ui.input_blacklist | e }}</code>
+                                        </p>
+                                    {% endif %}
+                                    {% if device.boot_ui.input_whitelist is defined and device.boot_ui.input_whitelist %}
+                                        <p>
+                                            <span class="device-info-key">Input device whitelist:</span>
+                                            <code>{{ device.boot_ui.input_whitelist | e }}</code>
+                                        </p>
+                                    {% endif %}
+                                    {% if device.boot_ui.graphics_backends is defined and device.boot_ui.graphics_backends %}
+                                        <p>
+                                            <span class="device-info-key">Graphics backends:</span>
+                                            {% for backend in device.boot_ui.graphics_backends %}
+                                                {{ backend | e }}{% if not loop.last %},{% endif %}
+                                            {% endfor %}
+                                        </p>
+                                    {% endif %}
+                                    {% if device.boot_ui.theme is defined and device.boot_ui.theme %}
+                                        <p>
+                                            <span class="device-info-key">Theme:</span>
+                                            {{ device.boot_ui.theme | e }}
+                                        </p>
+                                    {% endif %}
+                                {% endif %}
+
+                                <hr>
+
+                                <h4>Encryption</h4>
+
+                                <p>
+                                    <span class="device-info-key">Supported:</span>
+                                    {% if device.crypto is defined and device.crypto.supported %}yes{% else %}no{% endif %}
+                                </p>
+                                {% if device.crypto is defined and device.crypto.supported %}
+                                    {% if device.crypto.header_path is defined and device.crypto.header_path %}
+                                        <p>
+                                            <span class="device-info-key">Crypto header path:</span>
+                                            <code>{{ device.crypto.header_path | e }}</code>
+                                        </p>
+                                    {% endif %}
+                                {% endif %}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+
+        {% include 'snippets/body-js-common.html.j2' %}
+    </body>
+</html>
+
