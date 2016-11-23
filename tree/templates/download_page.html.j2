@@ -44,29 +44,29 @@
                                 <li>
                                     <!-- For extra-small devices -->
                                     <div class="visible-xs">
-                                        <a href="{{ site_root }}/files/{{ file_info.path | e }}">{{ file_info.variant | e }}</a>
+                                        <a href="{{ site_root }}files/{{ file_info.path | e }}">{{ file_info.variant | e }}</a>
                                         {% if 'md5' in file_info.checksums %}
-                                            | <a href="{{ site_root }}/files/{{ file_info.checksums.md5 | e }}">MD5</a>
+                                            | <a href="{{ site_root }}files/{{ file_info.checksums.md5 | e }}">MD5</a>
                                         {% endif %}
                                         {% if 'sha1' in file_info.checksums %}
-                                            | <a href="{{ site_root }}/files/{{ file_info.checksums.sha1 | e }}">SHA1</a>
+                                            | <a href="{{ site_root }}files/{{ file_info.checksums.sha1 | e }}">SHA1</a>
                                         {% endif %}
                                         {% if 'sha512' in file_info.checksums %}
-                                            | <a href="{{ site_root }}/files/{{ file_info.checksums.sha512 | e }}">SHA512</a>
+                                            | <a href="{{ site_root }}files/{{ file_info.checksums.sha512 | e }}">SHA512</a>
                                         {% endif %}
                                         ({{ file_info.size | human_size | e }})
                                     </div>
                                     <!-- For non-extra-small devices -->
                                     <div class="hidden-xs">
-                                        {{ file_info.variant | e }}: <a href="{{ site_root }}/files/{{ file_info.path | e }}">{{ file_info.name | e }}</a>
+                                        {{ file_info.variant | e }}: <a href="{{ site_root }}files/{{ file_info.path | e }}">{{ file_info.name | e }}</a>
                                         {% if 'md5' in file_info.checksums %}
-                                            | <a href="{{ site_root }}/files/{{ file_info.checksums.md5 | e }}">MD5</a>
+                                            | <a href="{{ site_root }}files/{{ file_info.checksums.md5 | e }}">MD5</a>
                                         {% endif %}
                                         {% if 'sha1' in file_info.checksums %}
-                                            | <a href="{{ site_root }}/files/{{ file_info.checksums.sha1 | e }}">SHA1</a>
+                                            | <a href="{{ site_root }}files/{{ file_info.checksums.sha1 | e }}">SHA1</a>
                                         {% endif %}
                                         {% if 'sha512' in file_info.checksums %}
-                                            | <a href="{{ site_root }}/files/{{ file_info.checksums.sha512 | e }}">SHA512</a>
+                                            | <a href="{{ site_root }}files/{{ file_info.checksums.sha512 | e }}">SHA512</a>
                                         {% endif %}
                                         ({{ file_info.size | human_size | e }})
                                     </div>
