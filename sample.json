@@ -1,0 +1,5049 @@
+[
+  {
+    "architecture": "armeabi-v7a",
+    "codenames": [
+      "benefit3"
+    ],
+    "id": "benefit3",
+    "name": "ARK Benefit A3",
+    "block_devs": {
+      "system": [
+        "/dev/block/bootdevice/by-name/system",
+        "/dev/block/mmcblk0p23"
+      ],
+      "base_dirs": [
+        "/dev/block/bootdevice/by-name"
+      ],
+      "cache": [
+        "/dev/block/bootdevice/by-name/cache",
+        "/dev/block/mmcblk0p24"
+      ],
+      "data": [
+        "/dev/block/bootdevice/by-name/userdata",
+        "/dev/block/mmcblk0p30"
+      ],
+      "boot": [
+        "/dev/block/bootdevice/by-name/boot",
+        "/dev/block/mmcblk0p20"
+      ],
+      "recovery": [
+        "/dev/block/bootdevice/by-name/recovery",
+        "/dev/block/mmcblk0p21"
+      ]
+    }
+  },
+  {
+    "id": "Z00A",
+    "name": "ASUS ZenFone 2",
+    "block_devs": {
+      "base_dirs": [
+        "/dev/block/pci/pci0000:00/0000:00:01.0/by-name",
+        "/dev/block/by-name"
+      ],
+      "recovery": [
+        "/dev/block/pci/pci0000:00/0000:00:01.0/by-name/recovery",
+        "/dev/block/by-name/recovery",
+        "/dev/block/mmcblk0p2"
+      ],
+      "data": [
+        "/dev/block/pci/pci0000:00/0000:00:01.0/by-name/data",
+        "/dev/block/by-name/data",
+        "/dev/block/mmcblk0p19"
+      ],
+      "boot": [
+        "/dev/block/pci/pci0000:00/0000:00:01.0/by-name/boot",
+        "/dev/block/by-name/boot",
+        "/dev/block/mmcblk0p1"
+      ],
+      "system": [
+        "/dev/block/pci/pci0000:00/0000:00:01.0/by-name/system",
+        "/dev/block/by-name/system",
+        "/dev/block/mmcblk0p18"
+      ],
+      "cache": [
+        "/dev/block/pci/pci0000:00/0000:00:01.0/by-name/cache",
+        "/dev/block/by-name/cache",
+        "/dev/block/mmcblk0p15"
+      ]
+    },
+    "codenames": [
+      "Z00A",
+      "Z008"
+    ],
+    "architecture": "x86"
+  },
+  {
+    "name": "DEXP X LTE 4.5",
+    "codenames": [
+      "XLTE4"
+    ],
+    "id": "XLTE4",
+    "block_devs": {
+      "data": [
+        "/dev/block/bootdevice/by-name/userdata",
+        "/dev/block/mmcblk0p25"
+      ],
+      "cache": [
+        "/dev/block/bootdevice/by-name/cache",
+        "/dev/block/mmcblk0p23"
+      ],
+      "recovery": [
+        "/dev/block/bootdevice/by-name/recovery",
+        "/dev/block/mmcblk0p24"
+      ],
+      "boot": [
+        "/dev/block/bootdevice/by-name/boot",
+        "/dev/block/mmcblk0p20"
+      ],
+      "base_dirs": [
+        "/dev/block/bootdevice/by-name"
+      ],
+      "system": [
+        "/dev/block/bootdevice/by-name/system",
+        "/dev/block/mmcblk0p21"
+      ]
+    },
+    "architecture": "armeabi-v7a"
+  },
+  {
+    "name": "DEXP M LTE 5",
+    "id": "mlte5",
+    "codenames": [
+      "MLTE5"
+    ],
+    "block_devs": {
+      "base_dirs": [
+        "/dev/block/bootdevice/by-name"
+      ],
+      "system": [
+        "/dev/block/bootdevice/by-name/system",
+        "/dev/block/mmcblk0p21"
+      ],
+      "cache": [
+        "/dev/block/bootdevice/by-name/cache",
+        "/dev/block/mmcblk0p23"
+      ],
+      "data": [
+        "/dev/block/bootdevice/by-name/userdata",
+        "/dev/block/mmcblk0p25"
+      ],
+      "boot": [
+        "/dev/block/bootdevice/by-name/boot",
+        "/dev/block/mmcblk0p20"
+      ],
+      "recovery": [
+        "/dev/block/bootdevice/by-name/recovery",
+        "/dev/block/mmcblk0p24"
+      ]
+    },
+    "architecture": "armeabi-v7a"
+  },
+  {
+    "id": "p9000",
+    "codenames": [
+      "p9000"
+    ],
+    "name": "Elephone P9000",
+    "architecture": "arm64-v8a",
+    "block_devs": {
+      "data": [
+        "/dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/userdata",
+        "/dev/block/mmcblk0p28"
+      ],
+      "cache": [
+        "/dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/cache",
+        "/dev/block/mmcblk0p27"
+      ],
+      "base_dirs": [
+        "/dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name"
+      ],
+      "system": [
+        "/dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/system",
+        "/dev/block/mmcblk0p26"
+      ],
+      "recovery": [
+        "/dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/recovery",
+        "/dev/block/mmcblk0p1"
+      ],
+      "boot": [
+        "/dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/boot",
+        "/dev/block/mmcblk0p20"
+      ]
+    }
+  },
+  {
+    "block_devs": {
+      "boot": [
+        "/dev/block/platform/mtk-msdc.0/by-name/boot",
+        "/dev/block/mmcblk0p7"
+      ],
+      "cache": [
+        "/dev/block/platform/mtk-msdc.0/by-name/cache",
+        "/dev/block/mmcblk0p15"
+      ],
+      "system": [
+        "/dev/block/platform/mtk-msdc.0/by-name/system",
+        "/dev/block/mmcblk0p14"
+      ],
+      "data": [
+        "/dev/block/platform/mtk-msdc.0/by-name/userdata",
+        "/dev/block/mmcblk0p16"
+      ],
+      "recovery": [
+        "/dev/block/platform/mtk-msdc.0/by-name/recovery",
+        "/dev/block/mmcblk0p8"
+      ],
+      "base_dirs": [
+        "/dev/block/platform/mtk-msdc.0/by-name"
+      ]
+    },
+    "boot_ui": {
+      "supported": true,
+      "max_brightness": 255,
+      "graphics_backends": [
+        "fbdev"
+      ],
+      "cpu_temp_path": "/sys/devices/virtual/thermal/thermal_zone1/temp",
+      "theme": "portrait_hdpi",
+      "brightness_path": "/sys/class/leds/lcd-backlight/brightness"
+    },
+    "codenames": [
+      "sprout",
+      "sprout_b",
+      "sprout4",
+      "sprout8"
+    ],
+    "id": "sprout",
+    "architecture": "armeabi-v7a",
+    "name": "Google Android One"
+  },
+  {
+    "block_devs": {
+      "base_dirs": [
+        "/dev/block/platform/mtk-msdc.0/by-name"
+      ],
+      "system": [
+        "/dev/block/platform/mtk-msdc.0/by-name/system",
+        "/dev/block/mmcblk0p14"
+      ],
+      "cache": [
+        "/dev/block/platform/mtk-msdc.0/by-name/cache",
+        "/dev/block/mmcblk0p15"
+      ],
+      "data": [
+        "/dev/block/platform/mtk-msdc.0/by-name/userdata",
+        "/dev/block/mmcblk0p16"
+      ],
+      "boot": [
+        "/dev/block/platform/mtk-msdc.0/by-name/boot",
+        "/dev/block/mmcblk0p7"
+      ],
+      "recovery": [
+        "/dev/block/platform/mtk-msdc.0/by-name/recovery",
+        "/dev/block/mmcblk0p8"
+      ]
+    },
+    "codenames": [
+      "seedmtk",
+      "Pixelv1",
+      "PixelV1_sprout"
+    ],
+    "id": "seedmtk",
+    "name": "Android One 2nd Gen - LAVA Pixelv1",
+    "architecture": "armeabi-v7a",
+    "boot_ui": {
+      "brightness_path": "/sys/class/leds/lcd-backlight/brightness",
+      "max_brightness": 255,
+      "graphics_backends": [
+        "fbdev"
+      ],
+      "theme": "portrait_hdpi",
+      "cpu_temp_path": "/sys/devices/virtual/thermal/thermal_zone1/temp",
+      "supported": true
+    }
+  },
+  {
+    "name": "Huawei Ascend P7",
+    "codenames": [
+      "hwp7"
+    ],
+    "block_devs": {
+      "base_dirs": [
+        "/dev/block/platform/hi_mci.0/by-name"
+      ],
+      "system": [
+        "/dev/block/platform/hi_mci.0/by-name/system",
+        "/dev/block/mmcblk0p28"
+      ],
+      "data": [
+        "/dev/block/platform/hi_mci.0/by-name/userdata",
+        "/dev/block/mmcblk0p30"
+      ],
+      "cache": [
+        "/dev/block/platform/hi_mci.0/by-name/cache",
+        "/dev/block/mmcblk0p21"
+      ],
+      "recovery": [
+        "/dev/block/platform/hi_mci.0/by-name/recovery",
+        "/dev/block/mmcblk0p18"
+      ],
+      "boot": [
+        "/dev/block/platform/hi_mci.0/by-name/boot",
+        "/dev/block/mmcblk0p17"
+      ]
+    },
+    "architecture": "armeabi-v7a",
+    "id": "hwp7"
+  },
+  {
+    "architecture": "armeabi-v7a",
+    "id": "mt2l03",
+    "codenames": [
+      "hwMT2L03",
+      "hwMT2LO3",
+      "mt2",
+      "MT2",
+      "mt2l03",
+      "MT2L03",
+      "mt2-l03",
+      "MT2-L03"
+    ],
+    "block_devs": {
+      "system": [
+        "/dev/block/platform/msm_sdcc.1/by-name/system",
+        "/dev/block/mmcblk0p23"
+      ],
+      "data": [
+        "/dev/block/platform/msm_sdcc.1/by-name/userdata",
+        "/dev/block/mmcblk0p24"
+      ],
+      "cache": [
+        "/dev/block/platform/msm_sdcc.1/by-name/cache",
+        "/dev/block/mmcblk0p21"
+      ],
+      "base_dirs": [
+        "/dev/block/platform/msm_sdcc.1/by-name"
+      ],
+      "boot": [
+        "/dev/block/platform/msm_sdcc.1/by-name/boot",
+        "/dev/block/mmcblk0p18"
+      ],
+      "recovery": [
+        "/dev/block/platform/msm_sdcc.1/by-name/recovery",
+        "/dev/block/mmcblk0p19"
+      ]
+    },
+    "name": "Huawei Ascend Mate 2"
+  },
+  {
+    "architecture": "arm64-v8a",
+    "name": "Jiayu S3",
+    "id": "h560",
+    "codenames": [
+      "h560",
+      "s3_h560",
+      "Jiayu_S3",
+      "Jiayu-S3",
+      "JY_S3",
+      "JY-S3"
+    ],
+    "block_devs": {
+      "recovery": [
+        "/dev/block/platform/mtk-msdc.0/by-name/recovery",
+        "/dev/block/platform/mtk-msdc.0/11230000.MSDC0/by-name/recovery",
+        "/dev/block/mmcblk0p8"
+      ],
+      "boot": [
+        "/dev/block/platform/mtk-msdc.0/by-name/boot",
+        "/dev/block/platform/mtk-msdc.0/11230000.MSDC0/by-name/boot",
+        "/dev/block/mmcblk0p7"
+      ],
+      "base_dirs": [
+        "/dev/block/platform/mtk-msdc.0/by-name",
+        "/dev/block/platform/mtk-msdc.0/11230000.MSDC0/by-name"
+      ],
+      "data": [
+        "/dev/block/platform/mtk-msdc.0/by-name/userdata",
+        "/dev/block/platform/mtk-msdc.0/11230000.MSDC0/by-name/userdata",
+        "/dev/block/mmcblk0p19"
+      ],
+      "extra": [
+        "/dev/block/platform/mtk-msdc.0/by-name/metadata",
+        "/dev/block/platform/mtk-msdc.0/11230000.MSDC0/by-name/metadata",
+        "/dev/block/platform/mtk-msdc.0/by-name/nvram",
+        "/dev/block/platform/mtk-msdc.0/11230000.MSDC0/by-name/nvram",
+        "/dev/block/platform/mtk-msdc.0/by-name/lk",
+        "/dev/block/platform/mtk-msdc.0/11230000.MSDC0/by-name/lk",
+        "/dev/block/platform/mtk-msdc.0/by-name/logo",
+        "/dev/block/platform/mtk-msdc.0/11230000.MSDC0/by-name/logo",
+        "/dev/block/platform/mtk-msdc.0/by-name/para",
+        "/dev/block/platform/mtk-msdc.0/11230000.MSDC0/by-name/para",
+        "/dev/block/platform/mtk-msdc.0/by-name/tee1",
+        "/dev/block/platform/mtk-msdc.0/11230000.MSDC0/by-name/tee1",
+        "/dev/block/platform/mtk-msdc.0/by-name/tee2",
+        "/dev/block/platform/mtk-msdc.0/11230000.MSDC0/by-name/tee2",
+        "/dev/block/platform/mtk-msdc.0/by-name/uboot",
+        "/dev/block/platform/mtk-msdc.0/11230000.MSDC0/by-name/uboot"
+      ],
+      "system": [
+        "/dev/block/platform/mtk-msdc.0/by-name/system",
+        "/dev/block/platform/mtk-msdc.0/11230000.MSDC0/by-name/system",
+        "/dev/block/mmcblk0p17"
+      ],
+      "cache": [
+        "/dev/block/platform/mtk-msdc.0/by-name/cache",
+        "/dev/block/platform/mtk-msdc.0/11230000.MSDC0/by-name/cache",
+        "/dev/block/mmcblk0p18"
+      ]
+    },
+    "boot_ui": {
+      "theme": "portrait_hdpi",
+      "supported": true,
+      "flags": [
+        "TW_GRAPHICS_FORCE_USE_LINELENGTH"
+      ],
+      "cpu_temp_path": "/sys/class/thermal/thermal_zone1/temp",
+      "graphics_backends": [
+        "fbdev"
+      ],
+      "pixel_format": "RGBX_8888",
+      "max_brightness": 255,
+      "default_brightness": 162
+    }
+  },
+  {
+    "name": "Jiayu S3plus",
+    "id": "n560a",
+    "codenames": [
+      "n560a",
+      "S3H",
+      "s3plus_n560a",
+      "JY_S3",
+      "JY-S3"
+    ],
+    "block_devs": {
+      "base_dirs": [
+        "/dev/block/platform/mtk-msdc.0/by-name",
+        "/dev/block/platform/mtk-msdc.0/11230000.MSDC0/by-name"
+      ],
+      "cache": [
+        "/dev/block/platform/mtk-msdc.0/by-name/cache",
+        "/dev/block/platform/mtk-msdc.0/11230000.MSDC0/by-name/cache",
+        "/dev/block/mmcblk0p21"
+      ],
+      "recovery": [
+        "/dev/block/platform/mtk-msdc.0/by-name/recovery",
+        "/dev/block/platform/mtk-msdc.0/11230000.MSDC0/by-name/recovery",
+        "/dev/block/mmcblk0p8"
+      ],
+      "boot": [
+        "/dev/block/platform/mtk-msdc.0/by-name/boot",
+        "/dev/block/platform/mtk-msdc.0/11230000.MSDC0/by-name/boot",
+        "/dev/block/mmcblk0p7"
+      ],
+      "data": [
+        "/dev/block/platform/mtk-msdc.0/by-name/userdata",
+        "/dev/block/platform/mtk-msdc.0/11230000.MSDC0/by-name/userdata",
+        "/dev/block/mmcblk0p22"
+      ],
+      "system": [
+        "/dev/block/platform/mtk-msdc.0/by-name/system",
+        "/dev/block/platform/mtk-msdc.0/11230000.MSDC0/by-name/system",
+        "/dev/block/mmcblk0p20"
+      ],
+      "extra": [
+        "/dev/block/platform/mtk-msdc.0/by-name/metadata",
+        "/dev/block/platform/mtk-msdc.0/11230000.MSDC0/by-name/metadata",
+        "/dev/block/platform/mtk-msdc.0/by-name/nvram",
+        "/dev/block/platform/mtk-msdc.0/11230000.MSDC0/by-name/nvram",
+        "/dev/block/platform/mtk-msdc.0/by-name/lk",
+        "/dev/block/platform/mtk-msdc.0/11230000.MSDC0/by-name/lk",
+        "/dev/block/platform/mtk-msdc.0/by-name/logo",
+        "/dev/block/platform/mtk-msdc.0/11230000.MSDC0/by-name/logo",
+        "/dev/block/platform/mtk-msdc.0/by-name/para",
+        "/dev/block/platform/mtk-msdc.0/11230000.MSDC0/by-name/para",
+        "/dev/block/platform/mtk-msdc.0/by-name/tee1",
+        "/dev/block/platform/mtk-msdc.0/11230000.MSDC0/by-name/tee1",
+        "/dev/block/platform/mtk-msdc.0/by-name/tee2",
+        "/dev/block/platform/mtk-msdc.0/11230000.MSDC0/by-name/tee2",
+        "/dev/block/platform/mtk-msdc.0/by-name/uboot",
+        "/dev/block/platform/mtk-msdc.0/11230000.MSDC0/by-name/uboot"
+      ]
+    },
+    "architecture": "arm64-v8a",
+    "boot_ui": {
+      "graphics_backends": [
+        "fbdev"
+      ],
+      "supported": true,
+      "cpu_temp_path": "/sys/class/thermal/thermal_zone1/temp",
+      "pixel_format": "RGBX_8888",
+      "flags": [
+        "TW_GRAPHICS_FORCE_USE_LINELENGTH"
+      ],
+      "default_brightness": 162,
+      "max_brightness": 255,
+      "theme": "portrait_hdpi"
+    }
+  },
+  {
+    "id": "k50",
+    "codenames": [
+      "K50",
+      "K50a40",
+      "K50t5",
+      "K50-t5",
+      "K50-T5",
+      "K3 Note",
+      "aio_otfp",
+      "aio_otfp_m"
+    ],
+    "boot_ui": {
+      "pixel_format": "RGBX_8888",
+      "supported": true,
+      "flags": [
+        "TW_GRAPHICS_FORCE_USE_LINELENGTH"
+      ],
+      "default_brightness": 162,
+      "theme": "portrait_hdpi",
+      "cpu_temp_path": "/sys/class/thermal/thermal_zone1/temp",
+      "graphics_backends": [
+        "fbdev"
+      ],
+      "max_brightness": 255
+    },
+    "flags": [
+      "FSTAB_SKIP_SDCARD0"
+    ],
+    "block_devs": {
+      "base_dirs": [
+        "/dev/block/platform/mtk-msdc.0/by-name",
+        "/dev/block/platform/mtk-msdc.0/11230000.MSDC0/by-name"
+      ],
+      "boot": [
+        "/dev/block/platform/mtk-msdc.0/by-name/boot",
+        "/dev/block/platform/mtk-msdc.0/11230000.MSDC0/by-name/boot",
+        "/dev/block/mmcblk0p7"
+      ],
+      "cache": [
+        "/dev/block/platform/mtk-msdc.0/by-name/cache",
+        "/dev/block/platform/mtk-msdc.0/11230000.MSDC0/by-name/cache",
+        "/dev/block/mmcblk0p18"
+      ],
+      "data": [
+        "/dev/block/platform/mtk-msdc.0/by-name/userdata",
+        "/dev/block/platform/mtk-msdc.0/11230000.MSDC0/by-name/userdata",
+        "/dev/block/mmcblk0p19"
+      ],
+      "extra": [
+        "/dev/block/mmcblk0boot0",
+        "/dev/block/platform/mtk-msdc.0/by-name/lk",
+        "/dev/block/platform/mtk-msdc.0/11230000.MSDC0/by-name/lk",
+        "/dev/block/platform/mtk-msdc.0/by-name/logo",
+        "/dev/block/platform/mtk-msdc.0/11230000.MSDC0/by-name/logo",
+        "/dev/block/platform/mtk-msdc.0/by-name/para",
+        "/dev/block/platform/mtk-msdc.0/11230000.MSDC0/by-name/para",
+        "/dev/block/platform/mtk-msdc.0/by-name/tee1",
+        "/dev/block/platform/mtk-msdc.0/11230000.MSDC0/by-name/tee1",
+        "/dev/block/platform/mtk-msdc.0/by-name/tee2",
+        "/dev/block/platform/mtk-msdc.0/11230000.MSDC0/by-name/tee2",
+        "/dev/block/platform/mtk-msdc.0/by-name/uboot",
+        "/dev/block/platform/mtk-msdc.0/11230000.MSDC0/by-name/uboot"
+      ],
+      "recovery": [
+        "/dev/block/platform/mtk-msdc.0/by-name/recovery",
+        "/dev/block/platform/mtk-msdc.0/11230000.MSDC0/by-name/recovery",
+        "/dev/block/mmcblk0p8"
+      ],
+      "system": [
+        "/dev/block/platform/mtk-msdc.0/by-name/system",
+        "/dev/block/platform/mtk-msdc.0/11230000.MSDC0/by-name/system",
+        "/dev/block/mmcblk0p17"
+      ]
+    },
+    "architecture": "arm64-v8a",
+    "name": "Lenovo K3 Note"
+  },
+  {
+    "architecture": "armeabi-v7a",
+    "id": "K920",
+    "block_devs": {
+      "base_dirs": [
+        "/dev/block/platform/msm_sdcc.1/by-name",
+        "/dev/block/bootdevice/by-name"
+      ],
+      "data": [
+        "/dev/block/platform/msm_sdcc.1/by-name/userdata",
+        "/dev/block/bootdevice/by-name/userdata",
+        "/dev/block/mmcblk0p23"
+      ],
+      "boot": [
+        "/dev/block/platform/msm_sdcc.1/by-name/boot",
+        "/dev/block/bootdevice/by-name/boot",
+        "/dev/block/mmcblk0p9"
+      ],
+      "cache": [
+        "/dev/block/platform/msm_sdcc.1/by-name/cache",
+        "/dev/block/bootdevice/by-name/cache",
+        "/dev/block/mmcblk0p20"
+      ],
+      "system": [
+        "/dev/block/platform/msm_sdcc.1/by-name/system",
+        "/dev/block/bootdevice/by-name/system",
+        "/dev/block/mmcblk0p21"
+      ],
+      "recovery": [
+        "/dev/block/platform/msm_sdcc.1/by-name/recovery",
+        "/dev/block/bootdevice/by-name/recovery",
+        "/dev/block/mmcblk0p10"
+      ]
+    },
+    "codenames": [
+      "kingdom_row",
+      "kingdomt"
+    ],
+    "name": "Lenovo Vibe Z2 Pro"
+  },
+  {
+    "name": "Lenovo ZUK Z1",
+    "block_devs": {
+      "recovery": [
+        "/dev/block/platform/msm_sdcc.1/by-name/recovery",
+        "/dev/block/bootdevice/by-name/recovery",
+        "/dev/block/mmcblk0p10"
+      ],
+      "data": [
+        "/dev/block/platform/msm_sdcc.1/by-name/userdata",
+        "/dev/block/bootdevice/by-name/userdata",
+        "/dev/block/mmcblk0p23"
+      ],
+      "cache": [
+        "/dev/block/platform/msm_sdcc.1/by-name/cache",
+        "/dev/block/bootdevice/by-name/cache",
+        "/dev/block/mmcblk0p21"
+      ],
+      "system": [
+        "/dev/block/platform/msm_sdcc.1/by-name/system",
+        "/dev/block/bootdevice/by-name/system",
+        "/dev/block/mmcblk0p22"
+      ],
+      "boot": [
+        "/dev/block/platform/msm_sdcc.1/by-name/boot",
+        "/dev/block/bootdevice/by-name/boot",
+        "/dev/block/mmcblk0p9"
+      ],
+      "base_dirs": [
+        "/dev/block/platform/msm_sdcc.1/by-name",
+        "/dev/block/bootdevice/by-name"
+      ]
+    },
+    "architecture": "armeabi-v7a",
+    "id": "Z1",
+    "codenames": [
+      "Z1"
+    ]
+  },
+  {
+    "block_devs": {
+      "boot": [
+        "/dev/block/bootdevice/by-name/boot"
+      ],
+      "base_dirs": [
+        "/dev/block/bootdevice/by-name"
+      ],
+      "cache": [
+        "/dev/block/bootdevice/by-name/cache"
+      ],
+      "system": [
+        "/dev/block/bootdevice/by-name/system"
+      ],
+      "data": [
+        "/dev/block/bootdevice/by-name/userdata"
+      ],
+      "recovery": [
+        "/dev/block/bootdevice/by-name/recovery"
+      ]
+    },
+    "architecture": "arm64-v8a",
+    "name": "Lenovo Vibe P1 Turbo",
+    "codenames": [
+      "P1a42",
+      "passion_row"
+    ],
+    "id": "P1a42"
+  },
+  {
+    "architecture": "arm64-v8a",
+    "id": "P1a41",
+    "block_devs": {
+      "boot": [
+        "/dev/block/bootdevice/by-name/boot"
+      ],
+      "cache": [
+        "/dev/block/bootdevice/by-name/cache"
+      ],
+      "base_dirs": [
+        "/dev/block/bootdevice/by-name"
+      ],
+      "system": [
+        "/dev/block/bootdevice/by-name/system"
+      ],
+      "data": [
+        "/dev/block/bootdevice/by-name/userdata"
+      ],
+      "recovery": [
+        "/dev/block/bootdevice/by-name/recovery"
+      ]
+    },
+    "name": "Lenovo Vibe P1",
+    "codenames": [
+      "P1a41",
+      "passion_row"
+    ]
+  },
+  {
+    "id": "lgg2",
+    "name": "LG G2",
+    "codenames": [
+      "g2",
+      "d800",
+      "d801",
+      "ls980",
+      "vs980",
+      "f320"
+    ],
+    "architecture": "armeabi-v7a",
+    "block_devs": {
+      "extra": [
+        "/dev/block/platform/msm_sdcc.1/by-name/aboot",
+        "/dev/block/platform/msm_sdcc.1/by-name/tz"
+      ],
+      "boot": [
+        "/dev/block/platform/msm_sdcc.1/by-name/boot",
+        "/dev/block/mmcblk0p7"
+      ],
+      "base_dirs": [
+        "/dev/block/platform/msm_sdcc.1/by-name"
+      ],
+      "cache": [
+        "/dev/block/platform/msm_sdcc.1/by-name/cache",
+        "/dev/block/mmcblk0p35"
+      ],
+      "recovery": [
+        "/dev/block/platform/msm_sdcc.1/by-name/recovery",
+        "/dev/block/mmcblk0p15"
+      ],
+      "system": [
+        "/dev/block/platform/msm_sdcc.1/by-name/system",
+        "/dev/block/mmcblk0p34"
+      ],
+      "data": [
+        "/dev/block/platform/msm_sdcc.1/by-name/userdata",
+        "/dev/block/mmcblk0p38"
+      ]
+    }
+  },
+  {
+    "architecture": "armeabi-v7a",
+    "name": "LG G2 (d802)",
+    "block_devs": {
+      "extra": [
+        "/dev/block/platform/msm_sdcc.1/by-name/aboot",
+        "/dev/block/platform/msm_sdcc.1/by-name/tz"
+      ],
+      "boot": [
+        "/dev/block/platform/msm_sdcc.1/by-name/boot",
+        "/dev/block/mmcblk0p7"
+      ],
+      "data": [
+        "/dev/block/platform/msm_sdcc.1/by-name/userdata",
+        "/dev/block/mmcblk0p35"
+      ],
+      "recovery": [
+        "/dev/block/platform/msm_sdcc.1/by-name/recovery",
+        "/dev/block/mmcblk0p15"
+      ],
+      "system": [
+        "/dev/block/platform/msm_sdcc.1/by-name/system",
+        "/dev/block/mmcblk0p30"
+      ],
+      "cache": [
+        "/dev/block/platform/msm_sdcc.1/by-name/cache",
+        "/dev/block/mmcblk0p31"
+      ],
+      "base_dirs": [
+        "/dev/block/platform/msm_sdcc.1/by-name"
+      ]
+    },
+    "codenames": [
+      "g2",
+      "d802",
+      "d802t"
+    ],
+    "id": "lgg2_d802"
+  },
+  {
+    "codenames": [
+      "g3",
+      "d850",
+      "d851",
+      "d852",
+      "d855",
+      "f400",
+      "f400k",
+      "ls990",
+      "vs985"
+    ],
+    "architecture": "armeabi-v7a",
+    "id": "lgg3",
+    "block_devs": {
+      "system": [
+        "/dev/block/platform/msm_sdcc.1/by-name/system",
+        "/dev/block/mmcblk0p40"
+      ],
+      "boot": [
+        "/dev/block/platform/msm_sdcc.1/by-name/boot",
+        "/dev/block/mmcblk0p18"
+      ],
+      "base_dirs": [
+        "/dev/block/platform/msm_sdcc.1/by-name"
+      ],
+      "cache": [
+        "/dev/block/platform/msm_sdcc.1/by-name/cache",
+        "/dev/block/mmcblk0p41"
+      ],
+      "data": [
+        "/dev/block/platform/msm_sdcc.1/by-name/userdata",
+        "/dev/block/mmcblk0p43"
+      ],
+      "extra": [
+        "/dev/block/platform/msm_sdcc.1/by-name/aboot",
+        "/dev/block/platform/msm_sdcc.1/by-name/modem"
+      ],
+      "recovery": [
+        "/dev/block/platform/msm_sdcc.1/by-name/recovery"
+      ]
+    },
+    "name": "LG G3"
+  },
+  {
+    "name": "LG G3 S",
+    "codenames": [
+      "jag3gds"
+    ],
+    "block_devs": {
+      "data": [
+        "/dev/block/platform/msm_sdcc.1/by-name/userdata",
+        "/dev/block/mmcblk0p34"
+      ],
+      "recovery": [
+        "/dev/block/platform/msm_sdcc.1/by-name/recovery",
+        "/dev/block/mmcblk0p17"
+      ],
+      "boot": [
+        "/dev/block/platform/msm_sdcc.1/by-name/boot",
+        "/dev/block/mmcblk0p16"
+      ],
+      "cache": [
+        "/dev/block/platform/msm_sdcc.1/by-name/cache",
+        "/dev/block/mmcblk0p33"
+      ],
+      "base_dirs": [
+        "/dev/block/platform/msm_sdcc.1/by-name"
+      ],
+      "system": [
+        "/dev/block/platform/msm_sdcc.1/by-name/system",
+        "/dev/block/mmcblk0p32"
+      ]
+    },
+    "architecture": "armeabi-v7a",
+    "id": "lgg3s"
+  },
+  {
+    "codenames": [
+      "p1",
+      "h815"
+    ],
+    "name": "LG G4",
+    "id": "lgg4",
+    "block_devs": {
+      "cache": [
+        "/dev/block/platform/f9824900.sdhci/by-name/cache",
+        "/dev/block/bootdevice/by-name/cache",
+        "/dev/block/mmcblk0p49"
+      ],
+      "base_dirs": [
+        "/dev/block/platform/f9824900.sdhci/by-name",
+        "/dev/block/bootdevice/by-name"
+      ],
+      "system": [
+        "/dev/block/platform/f9824900.sdhci/by-name/system",
+        "/dev/block/bootdevice/by-name/system",
+        "/dev/block/mmcblk0p47"
+      ],
+      "boot": [
+        "/dev/block/platform/f9824900.sdhci/by-name/boot",
+        "/dev/block/bootdevice/by-name/boot",
+        "/dev/block/mmcblk0p38"
+      ],
+      "recovery": [
+        "/dev/block/platform/f9824900.sdhci/by-name/recovery",
+        "/dev/block/bootdevice/by-name/recovery",
+        "/dev/block/mmcblk0p39"
+      ],
+      "data": [
+        "/dev/block/platform/f9824900.sdhci/by-name/userdata",
+        "/dev/block/bootdevice/by-name/userdata",
+        "/dev/block/mmcblk0p50"
+      ]
+    },
+    "architecture": "arm64-v8a"
+  },
+  {
+    "boot_ui": {
+      "brightness_path": "/sys/devices/soc/900000.qcom,mdss_mdp/900000.qcom,mdss_mdp:qcom,mdss_fb_primary/leds/lcd-backlight/brightness",
+      "default_brightness": 162,
+      "supported": true,
+      "flags": [
+        "TW_QCOM_RTC_FIX",
+        "TW_SCREEN_BLANK_ON_BOOT"
+      ],
+      "graphics_backends": [
+        "fbdev"
+      ],
+      "theme": "portrait_hdpi",
+      "max_brightness": 255
+    },
+    "id": "lgg5",
+    "codenames": [
+      "h1",
+      "h850"
+    ],
+    "block_devs": {
+      "recovery": [
+        "/dev/block/bootdevice/by-name/recovery",
+        "/dev/block/platform/624000.ufshc/by-name/recovery",
+        "/dev/block/sde2"
+      ],
+      "base_dirs": [
+        "/dev/block/bootdevice/by-name",
+        "/dev/block/platform/624000.ufshc/by-name"
+      ],
+      "cache": [
+        "/dev/block/bootdevice/by-name/cache",
+        "/dev/block/platform/624000.ufshc/by-name/cache",
+        "/dev/block/sda14"
+      ],
+      "data": [
+        "/dev/block/bootdevice/by-name/userdata",
+        "/dev/block/platform/624000.ufshc/by-name/userdata",
+        "/dev/block/sda17"
+      ],
+      "boot": [
+        "/dev/block/bootdevice/by-name/boot",
+        "/dev/block/platform/624000.ufshc/by-name/boot",
+        "/dev/block/sde1"
+      ],
+      "system": [
+        "/dev/block/bootdevice/by-name/system",
+        "/dev/block/platform/624000.ufshc/by-name/system",
+        "/dev/block/sda13"
+      ]
+    },
+    "architecture": "arm64-v8a",
+    "name": "LG G5",
+    "crypto": {
+      "header_path": "/dev/block/bootdevice/by-name/encrypt",
+      "supported": true
+    }
+  },
+  {
+    "id": "m4",
+    "codenames": [
+      "m4",
+      "e610",
+      "e612",
+      "e617",
+      "E610",
+      "E612",
+      "E617"
+    ],
+    "name": "LG Optimus L5",
+    "block_devs": {
+      "system": [
+        "/dev/block/mmcblk0p14",
+        "/dev/block/platform/msm_sdcc.3/by-num/p14"
+      ],
+      "cache": [
+        "/dev/block/mmcblk0p16",
+        "/dev/block/platform/msm_sdcc.3/by-num/p16"
+      ],
+      "data": [
+        "/dev/block/mmcblk0p20",
+        "/dev/block/platform/msm_sdcc.3/by-num/p20"
+      ],
+      "boot": [
+        "/dev/block/mmcblk0p9",
+        "/dev/block/platform/msm_sdcc.3/by-num/p9"
+      ],
+      "recovery": [
+        "/dev/block/mmcblk0p17",
+        "/dev/block/platform/msm_sdcc.3/by-num/p17"
+      ]
+    },
+    "architecture": "armeabi-v7a",
+    "boot_ui": {
+      "flags": [
+        "TW_GRAPHICS_FORCE_USE_LINELENGTH",
+        "TW_NO_CPU_TEMP",
+        "TW_QCOM_RTC_FIX",
+        "TW_PREFER_LCD_BACKLIGHT"
+      ],
+      "graphics_backends": [
+        "fbdev"
+      ],
+      "theme": "portrait_hdpi",
+      "supported": true,
+      "pixel_format": "RGBX_8888"
+    }
+  },
+  {
+    "id": "u0",
+    "codenames": [
+      "u0",
+      "p700",
+      "p705",
+      "p708",
+      "P700",
+      "P705",
+      "P708"
+    ],
+    "name": "LG Optimus L7",
+    "block_devs": {
+      "system": [
+        "/dev/block/mmcblk0p14",
+        "/dev/block/platform/msm_sdcc.3/by-num/p14"
+      ],
+      "cache": [
+        "/dev/block/mmcblk0p16",
+        "/dev/block/platform/msm_sdcc.3/by-num/p16"
+      ],
+      "data": [
+        "/dev/block/mmcblk0p20",
+        "/dev/block/platform/msm_sdcc.3/by-num/p20"
+      ],
+      "boot": [
+        "/dev/block/mmcblk0p9",
+        "/dev/block/platform/msm_sdcc.3/by-num/p9"
+      ],
+      "recovery": [
+        "/dev/block/mmcblk0p17",
+        "/dev/block/platform/msm_sdcc.3/by-num/p17"
+      ]
+    },
+    "architecture": "armeabi-v7a",
+    "boot_ui": {
+      "graphics_backends": [
+        "fbdev"
+      ],
+      "flags": [
+        "TW_GRAPHICS_FORCE_USE_LINELENGTH",
+        "TW_NO_CPU_TEMP",
+        "TW_QCOM_RTC_FIX",
+        "TW_PREFER_LCD_BACKLIGHT"
+      ],
+      "theme": "portrait_hdpi",
+      "supported": true,
+      "pixel_format": "RGBX_8888"
+    }
+  },
+  {
+    "id": "v1",
+    "codenames": [
+      "v1",
+      "v1ds",
+      "e410",
+      "e411",
+      "e415",
+      "e420",
+      "E410",
+      "E411",
+      "E415",
+      "E420"
+    ],
+    "name": "LG Optimus L1 II",
+    "architecture": "armeabi-v7a",
+    "block_devs": {
+      "system": [
+        "/dev/block/mmcblk0p14",
+        "/dev/block/platform/msm_sdcc.3/by-num/p14"
+      ],
+      "data": [
+        "/dev/block/mmcblk0p20",
+        "/dev/block/platform/msm_sdcc.3/by-num/p20"
+      ],
+      "boot": [
+        "/dev/block/mmcblk0p9",
+        "/dev/block/platform/msm_sdcc.3/by-num/p9"
+      ],
+      "recovery": [
+        "/dev/block/mmcblk0p17",
+        "/dev/block/platform/msm_sdcc.3/by-num/p17"
+      ],
+      "cache": [
+        "/dev/block/mmcblk0p16",
+        "/dev/block/platform/msm_sdcc.3/by-num/p16"
+      ]
+    },
+    "boot_ui": {
+      "graphics_backends": [
+        "fbdev"
+      ],
+      "theme": "portrait_hdpi",
+      "flags": [
+        "TW_GRAPHICS_FORCE_USE_LINELENGTH",
+        "TW_NO_CPU_TEMP",
+        "TW_QCOM_RTC_FIX",
+        "TW_PREFER_LCD_BACKLIGHT"
+      ],
+      "supported": true,
+      "pixel_format": "RGBX_8888"
+    }
+  },
+  {
+    "name": "LG Optimus L3 II",
+    "id": "vee3",
+    "codenames": [
+      "vee3",
+      "vee3ds",
+      "e425",
+      "e430",
+      "e431",
+      "e435",
+      "E425",
+      "E430",
+      "E431",
+      "E435"
+    ],
+    "architecture": "armeabi-v7a",
+    "block_devs": {
+      "system": [
+        "/dev/block/mmcblk0p14",
+        "/dev/block/platform/msm_sdcc.3/by-num/p14"
+      ],
+      "cache": [
+        "/dev/block/mmcblk0p16",
+        "/dev/block/platform/msm_sdcc.3/by-num/p16"
+      ],
+      "data": [
+        "/dev/block/mmcblk0p20",
+        "/dev/block/platform/msm_sdcc.3/by-num/p20"
+      ],
+      "boot": [
+        "/dev/block/mmcblk0p9",
+        "/dev/block/platform/msm_sdcc.3/by-num/p9"
+      ],
+      "recovery": [
+        "/dev/block/mmcblk0p17",
+        "/dev/block/platform/msm_sdcc.3/by-num/p17"
+      ]
+    },
+    "boot_ui": {
+      "graphics_backends": [
+        "fbdev"
+      ],
+      "flags": [
+        "TW_GRAPHICS_FORCE_USE_LINELENGTH",
+        "TW_NO_CPU_TEMP",
+        "TW_QCOM_RTC_FIX",
+        "TW_PREFER_LCD_BACKLIGHT"
+      ],
+      "theme": "portrait_hdpi",
+      "supported": true,
+      "pixel_format": "RGBX_8888"
+    }
+  },
+  {
+    "id": "vee7",
+    "codenames": [
+      "vee7",
+      "vee7ds",
+      "p710",
+      "p712",
+      "p713",
+      "p714",
+      "p715",
+      "p716",
+      "P710",
+      "P712",
+      "P713",
+      "P714",
+      "P715",
+      "P716"
+    ],
+    "name": "LG Optimus L7 II",
+    "block_devs": {
+      "system": [
+        "/dev/block/mmcblk0p14",
+        "/dev/block/platform/msm_sdcc.3/by-num/p14"
+      ],
+      "boot": [
+        "/dev/block/mmcblk0p9",
+        "/dev/block/platform/msm_sdcc.3/by-num/p9"
+      ],
+      "cache": [
+        "/dev/block/mmcblk0p16",
+        "/dev/block/platform/msm_sdcc.3/by-num/p16"
+      ],
+      "data": [
+        "/dev/block/mmcblk0p20",
+        "/dev/block/platform/msm_sdcc.3/by-num/p20"
+      ],
+      "recovery": [
+        "/dev/block/mmcblk0p17",
+        "/dev/block/platform/msm_sdcc.3/by-num/p17"
+      ]
+    },
+    "architecture": "armeabi-v7a",
+    "boot_ui": {
+      "graphics_backends": [
+        "fbdev"
+      ],
+      "theme": "portrait_hdpi",
+      "flags": [
+        "TW_GRAPHICS_FORCE_USE_LINELENGTH",
+        "TW_NO_CPU_TEMP",
+        "TW_QCOM_RTC_FIX",
+        "TW_PREFER_LCD_BACKLIGHT"
+      ],
+      "supported": true,
+      "pixel_format": "RGBX_8888"
+    }
+  },
+  {
+    "id": "falcon",
+    "name": "Motorola Moto G (2013)",
+    "architecture": "armeabi-v7a",
+    "boot_ui": {
+      "supported": true,
+      "theme": "portrait_hdpi",
+      "flags": [
+        "TW_IGNORE_MAJOR_AXIS_0",
+        "TW_QCOM_RTC_FIX"
+      ],
+      "graphics_backends": [
+        "overlay_msm_old",
+        "fbdev"
+      ]
+    },
+    "block_devs": {
+      "data": [
+        "/dev/block/platform/msm_sdcc.1/by-name/userdata",
+        "/dev/block/mmcblk0p36"
+      ],
+      "cache": [
+        "/dev/block/platform/msm_sdcc.1/by-name/cache",
+        "/dev/block/mmcblk0p33"
+      ],
+      "boot": [
+        "/dev/block/platform/msm_sdcc.1/by-name/boot",
+        "/dev/block/mmcblk0p31"
+      ],
+      "recovery": [
+        "/dev/block/platform/msm_sdcc.1/by-name/recovery",
+        "/dev/block/mmcblk0p32"
+      ],
+      "base_dirs": [
+        "/dev/block/platform/msm_sdcc.1/by-name"
+      ],
+      "system": [
+        "/dev/block/platform/msm_sdcc.1/by-name/system",
+        "/dev/block/mmcblk0p34"
+      ]
+    },
+    "codenames": [
+      "falcon",
+      "falcon_umts",
+      "falcon_umtsds",
+      "xt1032"
+    ]
+  },
+  {
+    "architecture": "armeabi-v7a",
+    "block_devs": {
+      "data": [
+        "/dev/block/platform/msm_sdcc.1/by-name/userdata",
+        "/dev/block/mmcblk0p36"
+      ],
+      "boot": [
+        "/dev/block/platform/msm_sdcc.1/by-name/boot",
+        "/dev/block/mmcblk0p31"
+      ],
+      "base_dirs": [
+        "/dev/block/platform/msm_sdcc.1/by-name"
+      ],
+      "recovery": [
+        "/dev/block/platform/msm_sdcc.1/by-name/recovery",
+        "/dev/block/mmcblk0p32"
+      ],
+      "system": [
+        "/dev/block/platform/msm_sdcc.1/by-name/system",
+        "/dev/block/mmcblk0p34"
+      ],
+      "cache": [
+        "/dev/block/platform/msm_sdcc.1/by-name/cache",
+        "/dev/block/mmcblk0p33"
+      ]
+    },
+    "codenames": [
+      "peregrine",
+      "peregrine_umts",
+      "peregrine_cdma",
+      "xt1039",
+      "xt1040",
+      "xt1045"
+    ],
+    "id": "peregrine",
+    "boot_ui": {
+      "flags": [
+        "TW_IGNORE_MAJOR_AXIS_0",
+        "TW_QCOM_RTC_FIX"
+      ],
+      "theme": "portrait_hdpi",
+      "supported": true,
+      "graphics_backends": [
+        "overlay_msm_old",
+        "fbdev"
+      ]
+    },
+    "name": "Motorola Moto G 4G (2013)"
+  },
+  {
+    "id": "titan",
+    "block_devs": {
+      "cache": [
+        "/dev/block/bootdevice/by-name/cache",
+        "/dev/block/platform/msm_sdcc.1/by-name/cache",
+        "/dev/block/mmcblk0p35"
+      ],
+      "recovery": [
+        "/dev/block/bootdevice/by-name/recovery",
+        "/dev/block/platform/msm_sdcc.1/by-name/recovery",
+        "/dev/block/mmcblk0p32"
+      ],
+      "data": [
+        "/dev/block/bootdevice/by-name/userdata",
+        "/dev/block/platform/msm_sdcc.1/by-name/userdata",
+        "/dev/block/mmcblk0p38"
+      ],
+      "boot": [
+        "/dev/block/bootdevice/by-name/boot",
+        "/dev/block/platform/msm_sdcc.1/by-name/boot",
+        "/dev/block/mmcblk0p31"
+      ],
+      "system": [
+        "/dev/block/bootdevice/by-name/system",
+        "/dev/block/platform/msm_sdcc.1/by-name/system",
+        "/dev/block/mmcblk0p36"
+      ],
+      "base_dirs": [
+        "/dev/block/bootdevice/by-name",
+        "/dev/block/platform/msm_sdcc.1/by-name"
+      ]
+    },
+    "codenames": [
+      "titan_umts",
+      "titan_umtsds",
+      "titan_umts",
+      "titan_udstv",
+      "xt1063",
+      "xt1068",
+      "xt1064",
+      "xt1069"
+    ],
+    "architecture": "armeabi-v7a",
+    "name": "Motorola Moto G (2014)"
+  },
+  {
+    "codenames": [
+      "osprey",
+      "osprey_u2"
+    ],
+    "block_devs": {
+      "boot": [
+        "/dev/block/platform/soc.0/by-name/boot",
+        "/dev/block/mmcblk0p31"
+      ],
+      "system": [
+        "/dev/block/platform/soc.0/by-name/system",
+        "/dev/block/mmcblk0p41"
+      ],
+      "base_dirs": [
+        "/dev/block/platform/soc.0/by-name"
+      ],
+      "recovery": [
+        "/dev/block/platform/soc.0/by-name/recovery",
+        "/dev/block/mmcblk0p32"
+      ],
+      "data": [
+        "/dev/block/platform/soc.0/by-name/userdata",
+        "/dev/block/mmcblk0p42"
+      ],
+      "cache": [
+        "/dev/block/platform/soc.0/by-name/cache",
+        "/dev/block/mmcblk0p40"
+      ]
+    },
+    "architecture": "armeabi-v7a",
+    "name": "Motorola Moto G (2015)",
+    "id": "osprey"
+  },
+  {
+    "id": "condor",
+    "codenames": [
+      "condor",
+      "condor_umts",
+      "condor_umtsds",
+      "xt1022",
+      "xt1021",
+      "xt1023"
+    ],
+    "name": "Motorola Moto E (1st gen)",
+    "architecture": "armeabi-v7a",
+    "block_devs": {
+      "cache": [
+        "/dev/block/platform/msm_sdcc.1/by-name/cache",
+        "/dev/block/mmcblk0p33"
+      ],
+      "base_dirs": [
+        "/dev/block/platform/msm_sdcc.1/by-name"
+      ],
+      "data": [
+        "/dev/block/platform/msm_sdcc.1/by-name/userdata",
+        "/dev/block/mmcblk0p36"
+      ],
+      "recovery": [
+        "/dev/block/platform/msm_sdcc.1/by-name/recovery",
+        "/dev/block/mmcblk0p32"
+      ],
+      "boot": [
+        "/dev/block/platform/msm_sdcc.1/by-name/boot",
+        "/dev/block/mmcblk0p31"
+      ],
+      "system": [
+        "/dev/block/platform/msm_sdcc.1/by-name/system",
+        "/dev/block/mmcblk0p34"
+      ]
+    }
+  },
+  {
+    "block_devs": {
+      "data": [
+        "/dev/block/platform/msm_sdcc.1/by-name/userdata",
+        "/dev/block/mmcblk0p41"
+      ],
+      "system": [
+        "/dev/block/platform/msm_sdcc.1/by-name/system",
+        "/dev/block/mmcblk0p39"
+      ],
+      "boot": [
+        "/dev/block/platform/msm_sdcc.1/by-name/boot",
+        "/dev/block/mmcblk0p32"
+      ],
+      "base_dirs": [
+        "/dev/block/platform/msm_sdcc.1/by-name"
+      ],
+      "cache": [
+        "/dev/block/platform/msm_sdcc.1/by-name/cache",
+        "/dev/block/mmcblk0p40"
+      ],
+      "recovery": [
+        "/dev/block/platform/msm_sdcc.1/by-name/recovery",
+        "/dev/block/mmcblk0p33"
+      ]
+    },
+    "architecture": "armeabi-v7a",
+    "id": "otus",
+    "codenames": [
+      "otus",
+      "otus_ds",
+      "otus",
+      "xt1505",
+      "xt1506",
+      "xt1511"
+    ],
+    "name": "Motorola Moto E 3G (2nd Gen)"
+  },
+  {
+    "name": "Motorola Moto E 4G (2nd Gen)",
+    "architecture": "armeabi-v7a",
+    "id": "surnia",
+    "block_devs": {
+      "boot": [
+        "/dev/block/platform/msm_sdcc.1/by-name/boot",
+        "/dev/block/mmcblk0p33"
+      ],
+      "system": [
+        "/dev/block/platform/msm_sdcc.1/by-name/system",
+        "/dev/block/mmcblk0p41"
+      ],
+      "base_dirs": [
+        "/dev/block/platform/msm_sdcc.1/by-name"
+      ],
+      "recovery": [
+        "/dev/block/platform/msm_sdcc.1/by-name/recovery",
+        "/dev/block/mmcblk0p34"
+      ],
+      "data": [
+        "/dev/block/platform/msm_sdcc.1/by-name/userdata",
+        "/dev/block/mmcblk0p43"
+      ],
+      "cache": [
+        "/dev/block/platform/msm_sdcc.1/by-name/cache",
+        "/dev/block/mmcblk0p42"
+      ]
+    },
+    "codenames": [
+      "surnia_cdma",
+      "surnia_umts",
+      "surnia_udstv",
+      "surnia_uds",
+      "XT1514",
+      "XT1521",
+      "XT1523",
+      "XT1524",
+      "XT1526",
+      "XT1527",
+      "XT1529"
+    ]
+  },
+  {
+    "block_devs": {
+      "recovery": [
+        "/dev/block/platform/msm_sdcc.1/by-name/recovery"
+      ],
+      "base_dirs": [
+        "/dev/block/platform/msm_sdcc.1/by-name"
+      ],
+      "boot": [
+        "/dev/block/platform/msm_sdcc.1/by-name/boot",
+        "/dev/block/mmcblk0p33"
+      ],
+      "cache": [
+        "/dev/block/platform/msm_sdcc.1/by-name/cache",
+        "/dev/block/mmcblk0p36"
+      ],
+      "system": [
+        "/dev/block/platform/msm_sdcc.1/by-name/system",
+        "/dev/block/mmcblk0p38"
+      ],
+      "data": [
+        "/dev/block/platform/msm_sdcc.1/by-name/userdata",
+        "/dev/block/mmcblk0p40"
+      ]
+    },
+    "codenames": [
+      "ghost",
+      "ghost_att",
+      "ghost_rcica",
+      "ghost_retail",
+      "ghost_sprint",
+      "ghost_usc",
+      "ghost_verizon",
+      "xt1052",
+      "xt1053",
+      "xt1055",
+      "xt1056",
+      "xt1058",
+      "xt1060"
+    ],
+    "architecture": "armeabi-v7a",
+    "id": "ghost",
+    "name": "Motorola Moto X (2013)"
+  },
+  {
+    "codenames": [
+      "victara"
+    ],
+    "name": "Motorola Moto X (2014)",
+    "block_devs": {
+      "system": [
+        "/dev/block/platform/msm_sdcc.1/by-name/system",
+        "/dev/block/mmcblk0p38"
+      ],
+      "recovery": [
+        "/dev/block/platform/msm_sdcc.1/by-name/recovery",
+        "/dev/block/mmcblk0p34"
+      ],
+      "cache": [
+        "/dev/block/platform/msm_sdcc.1/by-name/cache",
+        "/dev/block/mmcblk0p37"
+      ],
+      "boot": [
+        "/dev/block/platform/msm_sdcc.1/by-name/boot",
+        "/dev/block/mmcblk0p33"
+      ],
+      "data": [
+        "/dev/block/platform/msm_sdcc.1/by-name/userdata",
+        "/dev/block/mmcblk0p39"
+      ],
+      "base_dirs": [
+        "/dev/block/platform/msm_sdcc.1/by-name"
+      ]
+    },
+    "architecture": "armeabi-v7a",
+    "id": "victara"
+  },
+  {
+    "name": "Motorola Moto X Pure Edition",
+    "architecture": "arm64-v8a",
+    "id": "clark",
+    "block_devs": {
+      "data": [
+        "/dev/block/bootdevice/by-name/userdata",
+        "/dev/block/platform/f9824900.sdhci/by-name/userdata",
+        "/dev/block/platform/soc.0/f9824900.sdhci/by-name/userdata",
+        "/dev/block/mmcblk0p47"
+      ],
+      "cache": [
+        "/dev/block/bootdevice/by-name/cache",
+        "/dev/block/platform/f9824900.sdhci/by-name/cache",
+        "/dev/block/platform/soc.0/f9824900.sdhci/by-name/cache",
+        "/dev/block/mmcblk0p45"
+      ],
+      "boot": [
+        "/dev/block/bootdevice/by-name/boot",
+        "/dev/block/platform/f9824900.sdhci/by-name/boot",
+        "/dev/block/platform/soc.0/f9824900.sdhci/by-name/boot",
+        "/dev/block/mmcblk0p36"
+      ],
+      "recovery": [
+        "/dev/block/bootdevice/by-name/recovery",
+        "/dev/block/platform/f9824900.sdhci/by-name/recovery",
+        "/dev/block/platform/soc.0/f9824900.sdhci/by-name/recovery",
+        "/dev/block/mmcblk0p37"
+      ],
+      "base_dirs": [
+        "/dev/block/bootdevice/by-name",
+        "/dev/block/platform/f9824900.sdhci/by-name",
+        "/dev/block/platform/soc.0/f9824900.sdhci/by-name"
+      ],
+      "system": [
+        "/dev/block/bootdevice/by-name/system",
+        "/dev/block/platform/f9824900.sdhci/by-name/system",
+        "/dev/block/platform/soc.0/f9824900.sdhci/by-name/system",
+        "/dev/block/mmcblk0p46"
+      ]
+    },
+    "codenames": [
+      "clark"
+    ]
+  },
+  {
+    "codenames": [
+      "quark",
+      "quark_lra",
+      "quark_umts",
+      "quark_verizon",
+      "xt1225",
+      "xt1250",
+      "xt1254"
+    ],
+    "block_devs": {
+      "boot": [
+        "/dev/block/platform/msm_sdcc.1/by-name/boot",
+        "/dev/block/mmcblk0p36"
+      ],
+      "data": [
+        "/dev/block/platform/msm_sdcc.1/by-name/userdata",
+        "/dev/block/mmcblk0p41"
+      ],
+      "recovery": [
+        "/dev/block/platform/msm_sdcc.1/by-name/recovery",
+        "/dev/block/mmcblk0p37"
+      ],
+      "base_dirs": [
+        "/dev/block/platform/msm_sdcc.1/by-name"
+      ],
+      "cache": [
+        "/dev/block/platform/msm_sdcc.1/by-name/cache",
+        "/dev/block/mmcblk0p39"
+      ],
+      "system": [
+        "/dev/block/platform/msm_sdcc.1/by-name/system",
+        "/dev/block/mmcblk0p40"
+      ]
+    },
+    "id": "quark",
+    "name": "Motorola Droid Turbo",
+    "architecture": "armeabi-v7a"
+  },
+  {
+    "block_devs": {
+      "base_dirs": [
+        "/dev/block/platform/msm_sdcc.1/by-name"
+      ],
+      "recovery": [
+        "/dev/block/platform/msm_sdcc.1/by-name/recovery",
+        "/dev/block/mmcblk0p7"
+      ],
+      "system": [
+        "/dev/block/platform/msm_sdcc.1/by-name/system",
+        "/dev/block/mmcblk0p21"
+      ],
+      "data": [
+        "/dev/block/platform/msm_sdcc.1/by-name/userdata",
+        "/dev/block/mmcblk0p23"
+      ],
+      "cache": [
+        "/dev/block/platform/msm_sdcc.1/by-name/cache",
+        "/dev/block/mmcblk0p22"
+      ],
+      "boot": [
+        "/dev/block/platform/msm_sdcc.1/by-name/boot",
+        "/dev/block/mmcblk0p6"
+      ]
+    },
+    "name": "Google/LG Nexus 4",
+    "codenames": [
+      "mako"
+    ],
+    "id": "mako",
+    "architecture": "armeabi-v7a"
+  },
+  {
+    "block_devs": {
+      "boot": [
+        "/dev/block/platform/msm_sdcc.1/by-name/boot",
+        "/dev/block/mmcblk0p19"
+      ],
+      "extra": [
+        "/dev/block/platform/msm_sdcc.1/by-name/aboot",
+        "/dev/block/platform/msm_sdcc.1/by-name/imgdata",
+        "/dev/block/platform/msm_sdcc.1/by-name/misc",
+        "/dev/block/platform/msm_sdcc.1/by-name/modem",
+        "/dev/block/platform/msm_sdcc.1/by-name/rpm",
+        "/dev/block/platform/msm_sdcc.1/by-name/sbl1",
+        "/dev/block/platform/msm_sdcc.1/by-name/sdi",
+        "/dev/block/platform/msm_sdcc.1/by-name/tz"
+      ],
+      "cache": [
+        "/dev/block/platform/msm_sdcc.1/by-name/cache",
+        "/dev/block/mmcblk0p27"
+      ],
+      "system": [
+        "/dev/block/platform/msm_sdcc.1/by-name/system",
+        "/dev/block/mmcblk0p25"
+      ],
+      "base_dirs": [
+        "/dev/block/platform/msm_sdcc.1/by-name"
+      ],
+      "data": [
+        "/dev/block/platform/msm_sdcc.1/by-name/userdata",
+        "/dev/block/mmcblk0p28"
+      ],
+      "recovery": [
+        "/dev/block/platform/msm_sdcc.1/by-name/recovery"
+      ]
+    },
+    "architecture": "armeabi-v7a",
+    "id": "hammerhead",
+    "codenames": [
+      "hammerhead"
+    ],
+    "name": "Google/LG Nexus 5"
+  },
+  {
+    "name": "Google/LG Nexus 5X",
+    "id": "bullhead",
+    "block_devs": {
+      "cache": [
+        "/dev/block/platform/soc.0/f9824900.sdhci/by-name/cache",
+        "/dev/block/bootdevice/by-name/cache",
+        "/dev/block/mmcblk0p40"
+      ],
+      "base_dirs": [
+        "/dev/block/platform/soc.0/f9824900.sdhci/by-name",
+        "/dev/block/bootdevice/by-name"
+      ],
+      "data": [
+        "/dev/block/platform/soc.0/f9824900.sdhci/by-name/userdata",
+        "/dev/block/bootdevice/by-name/userdata",
+        "/dev/block/mmcblk0p45"
+      ],
+      "boot": [
+        "/dev/block/platform/soc.0/f9824900.sdhci/by-name/boot",
+        "/dev/block/bootdevice/by-name/boot",
+        "/dev/block/mmcblk0p37"
+      ],
+      "system": [
+        "/dev/block/platform/soc.0/f9824900.sdhci/by-name/system",
+        "/dev/block/bootdevice/by-name/system",
+        "/dev/block/mmcblk0p41"
+      ],
+      "recovery": [
+        "/dev/block/platform/soc.0/f9824900.sdhci/by-name/recovery",
+        "/dev/block/bootdevice/by-name/recovery",
+        "/dev/block/mmcblk0p38"
+      ]
+    },
+    "architecture": "arm64-v8a",
+    "codenames": [
+      "bullhead"
+    ]
+  },
+  {
+    "architecture": "armeabi-v7a",
+    "name": "Google/Motorola Nexus 6",
+    "block_devs": {
+      "base_dirs": [
+        "/dev/block/platform/msm_sdcc.1/by-name"
+      ],
+      "system": [
+        "/dev/block/platform/msm_sdcc.1/by-name/system",
+        "/dev/block/mmcblk0p41"
+      ],
+      "boot": [
+        "/dev/block/platform/msm_sdcc.1/by-name/boot",
+        "/dev/block/mmcblk0p37"
+      ],
+      "cache": [
+        "/dev/block/platform/msm_sdcc.1/by-name/cache",
+        "/dev/block/mmcblk0p38"
+      ],
+      "data": [
+        "/dev/block/platform/msm_sdcc.1/by-name/userdata",
+        "/dev/block/mmcblk0p42"
+      ],
+      "recovery": [
+        "/dev/block/platform/msm_sdcc.1/by-name/recovery",
+        "/dev/block/mmcblk0p35"
+      ]
+    },
+    "codenames": [
+      "shamu"
+    ],
+    "id": "shamu"
+  },
+  {
+    "codenames": [
+      "angler"
+    ],
+    "id": "angler",
+    "name": "Google/Huawei Nexus 6P",
+    "block_devs": {
+      "boot": [
+        "/dev/block/bootdevice/by-name/boot",
+        "/dev/block/platform/soc.0/f9824900.sdhci/by-name/boot",
+        "/dev/block/mmcblk0p34"
+      ],
+      "system": [
+        "/dev/block/bootdevice/by-name/system",
+        "/dev/block/platform/soc.0/f9824900.sdhci/by-name/system",
+        "/dev/block/mmcblk0p43"
+      ],
+      "data": [
+        "/dev/block/bootdevice/by-name/userdata",
+        "/dev/block/platform/soc.0/f9824900.sdhci/by-name/userdata",
+        "/dev/block/mmcblk0p44"
+      ],
+      "base_dirs": [
+        "/dev/block/platform/soc.0/f9824900.sdhci/by-name"
+      ],
+      "cache": [
+        "/dev/block/bootdevice/by-name/cache",
+        "/dev/block/platform/soc.0/f9824900.sdhci/by-name/cache",
+        "/dev/block/mmcblk0p38"
+      ],
+      "recovery": [
+        "/dev/block/bootdevice/by-name/recovery",
+        "/dev/block/platform/soc.0/f9824900.sdhci/by-name/recovery",
+        "/dev/block/mmcblk0p35"
+      ]
+    },
+    "architecture": "arm64-v8a"
+  },
+  {
+    "block_devs": {
+      "system": [
+        "/dev/block/platform/sdhci-tegra.3/by-name/APP",
+        "/dev/block/mmcblk0p3"
+      ],
+      "base_dirs": [
+        "/dev/block/platform/sdhci-tegra.3/by-name"
+      ],
+      "recovery": [
+        "/dev/block/platform/sdhci-tegra.3/by-name/SOS",
+        "/dev/block/mmcblk0p1"
+      ],
+      "boot": [
+        "/dev/block/platform/sdhci-tegra.3/by-name/LNX",
+        "/dev/block/mmcblk0p2"
+      ],
+      "cache": [
+        "/dev/block/platform/sdhci-tegra.3/by-name/CAC",
+        "/dev/block/mmcblk0p4"
+      ],
+      "data": [
+        "/dev/block/platform/sdhci-tegra.3/by-name/UDA",
+        "/dev/block/mmcblk0p9"
+      ]
+    },
+    "id": "grouper",
+    "architecture": "armeabi-v7a",
+    "name": "Google/ASUS Nexus 7 (2012 Wifi)",
+    "codenames": [
+      "grouper"
+    ]
+  },
+  {
+    "id": "flo",
+    "block_devs": {
+      "system": [
+        "/dev/block/platform/msm_sdcc.1/by-name/system",
+        "/dev/block/mmcblk0p22"
+      ],
+      "cache": [
+        "/dev/block/platform/msm_sdcc.1/by-name/cache",
+        "/dev/block/mmcblk0p23"
+      ],
+      "boot": [
+        "/dev/block/platform/msm_sdcc.1/by-name/boot",
+        "/dev/block/mmcblk0p14"
+      ],
+      "base_dirs": [
+        "/dev/block/platform/msm_sdcc.1/by-name"
+      ],
+      "data": [
+        "/dev/block/platform/msm_sdcc.1/by-name/userdata",
+        "/dev/block/mmcblk0p30"
+      ],
+      "recovery": [
+        "/dev/block/platform/msm_sdcc.1/by-name/recovery"
+      ]
+    },
+    "architecture": "armeabi-v7a",
+    "name": "Google/ASUS Nexus 7 (2013 Wifi)",
+    "codenames": [
+      "flo"
+    ]
+  },
+  {
+    "id": "bacon",
+    "block_devs": {
+      "cache": [
+        "/dev/block/platform/msm_sdcc.1/by-name/cache",
+        "/dev/block/mmcblk0p16"
+      ],
+      "extra": [
+        "/dev/block/platform/msm_sdcc.1/by-name/aboot",
+        "/dev/block/mmcblk0p5",
+        "/dev/block/platform/msm_sdcc.1/by-name/dbi",
+        "/dev/block/mmcblk0p3",
+        "/dev/block/platform/msm_sdcc.1/by-name/LOGO",
+        "/dev/block/mmcblk0p22",
+        "/dev/block/platform/msm_sdcc.1/by-name/modem",
+        "/dev/block/mmcblk0p1",
+        "/dev/block/platform/msm_sdcc.1/by-name/oppostanvbk",
+        "/dev/block/mmcblk0p13",
+        "/dev/block/platform/msm_sdcc.1/by-name/reserve4",
+        "/dev/block/mmcblk0p27",
+        "/dev/block/platform/msm_sdcc.1/by-name/rpm",
+        "/dev/block/mmcblk0p6",
+        "/dev/block/platform/msm_sdcc.1/by-name/sbl1",
+        "/dev/block/mmcblk0p2",
+        "/dev/block/platform/msm_sdcc.1/by-name/tz",
+        "/dev/block/mmcblk0p8"
+      ],
+      "system": [
+        "/dev/block/platform/msm_sdcc.1/by-name/system",
+        "/dev/block/mmcblk0p14"
+      ],
+      "data": [
+        "/dev/block/platform/msm_sdcc.1/by-name/userdata",
+        "/dev/block/mmcblk0p28"
+      ],
+      "base_dirs": [
+        "/dev/block/platform/msm_sdcc.1/by-name"
+      ],
+      "boot": [
+        "/dev/block/platform/msm_sdcc.1/by-name/boot",
+        "/dev/block/mmcblk0p7"
+      ],
+      "recovery": [
+        "/dev/block/platform/msm_sdcc.1/by-name/recovery"
+      ]
+    },
+    "name": "OnePlus One",
+    "codenames": [
+      "bacon",
+      "A0001"
+    ],
+    "architecture": "armeabi-v7a",
+    "boot_ui": {
+      "theme": "portrait_hdpi",
+      "graphics_backends": [
+        "fbdev"
+      ],
+      "flags": [
+        "TW_QCOM_RTC_FIX"
+      ],
+      "supported": true
+    }
+  },
+  {
+    "block_devs": {
+      "recovery": [
+        "/dev/block/platform/f9824900.sdhci/by-name/recovery",
+        "/dev/block/platform/soc.0/f9824900.sdhci/by-name/recovery",
+        "/dev/block/bootdevice/by-name/recovery",
+        "/dev/block/mmcblk0p36"
+      ],
+      "cache": [
+        "/dev/block/platform/f9824900.sdhci/by-name/cache",
+        "/dev/block/platform/soc.0/f9824900.sdhci/by-name/cache",
+        "/dev/block/bootdevice/by-name/cache",
+        "/dev/block/mmcblk0p41"
+      ],
+      "boot": [
+        "/dev/block/platform/f9824900.sdhci/by-name/boot",
+        "/dev/block/platform/soc.0/f9824900.sdhci/by-name/boot",
+        "/dev/block/bootdevice/by-name/boot",
+        "/dev/block/mmcblk0p35"
+      ],
+      "system": [
+        "/dev/block/platform/f9824900.sdhci/by-name/system",
+        "/dev/block/platform/soc.0/f9824900.sdhci/by-name/system",
+        "/dev/block/bootdevice/by-name/system",
+        "/dev/block/mmcblk0p42"
+      ],
+      "base_dirs": [
+        "/dev/block/platform/f9824900.sdhci/by-name",
+        "/dev/block/platform/soc.0/f9824900.sdhci/by-name",
+        "/dev/block/bootdevice/by-name"
+      ],
+      "extra": [
+        "/dev/block/bootdevice/by-name/tz",
+        "/dev/block/platform/f9824900.sdhci/by-name/tz",
+        "/dev/block/platform/soc.0/f9824900.sdhci/by-name/tz",
+        "/dev/block/mmcblk0p29"
+      ],
+      "data": [
+        "/dev/block/platform/f9824900.sdhci/by-name/userdata",
+        "/dev/block/platform/soc.0/f9824900.sdhci/by-name/userdata",
+        "/dev/block/bootdevice/by-name/userdata",
+        "/dev/block/mmcblk0p43"
+      ]
+    },
+    "architecture": "arm64-v8a",
+    "name": "OnePlus 2",
+    "boot_ui": {
+      "graphics_backends": [
+        "fbdev"
+      ],
+      "flags": [
+        "TW_QCOM_RTC_FIX"
+      ],
+      "brightness_path": "/sys/class/leds/lcd-backlight/brightness",
+      "supported": true,
+      "theme": "portrait_hdpi"
+    },
+    "id": "OnePlus2",
+    "codenames": [
+      "OnePlus2"
+    ]
+  },
+  {
+    "name": "OnePlus 3",
+    "id": "OnePlus3",
+    "block_devs": {
+      "cache": [
+        "/dev/block/bootdevice/by-name/cache",
+        "/dev/block/platform/soc/624000.ufshc/by-name/cache",
+        "/dev/block/sda3"
+      ],
+      "base_dirs": [
+        "/dev/block/bootdevice/by-name",
+        "/dev/block/platform/soc/624000.ufshc/by-name"
+      ],
+      "data": [
+        "/dev/block/bootdevice/by-name/userdata",
+        "/dev/block/platform/soc/624000.ufshc/by-name/userdata",
+        "/dev/block/sda15"
+      ],
+      "system": [
+        "/dev/block/bootdevice/by-name/system",
+        "/dev/block/platform/soc/624000.ufshc/by-name",
+        "/dev/block/sde20"
+      ],
+      "boot": [
+        "/dev/block/bootdevice/by-name/boot",
+        "/dev/block/platform/soc/624000.ufshc/by-name/boot",
+        "/dev/block/sde18"
+      ],
+      "recovery": [
+        "/dev/block/bootdevice/by-name/recovery",
+        "/dev/block/platform/soc/624000.ufshc/by-name/recovery",
+        "/dev/block/sde21"
+      ]
+    },
+    "architecture": "arm64-v8a",
+    "codenames": [
+      "OnePlus3"
+    ]
+  },
+  {
+    "name": "OnePlus X",
+    "codenames": [
+      "OnePlus",
+      "ONE",
+      "onyx"
+    ],
+    "block_devs": {
+      "boot": [
+        "/dev/block/platform/msm_sdcc.1/by-name/boot",
+        "/dev/block/bootdevice/by-name/boot",
+        "/dev/block/mmcblk0p7"
+      ],
+      "base_dirs": [
+        "/dev/block/platform/msm_sdcc.1/by-name",
+        "/dev/block/bootdevice/by-name"
+      ],
+      "data": [
+        "/dev/block/platform/msm_sdcc.1/by-name/userdata",
+        "/dev/block/bootdevice/by-name/userdata",
+        "/dev/block/mmcblk0p28"
+      ],
+      "recovery": [
+        "/dev/block/platform/msm_sdcc.1/by-name/recovery",
+        "/dev/block/bootdevice/by-name/recovery",
+        "/dev/block/mmcblk0p16"
+      ],
+      "cache": [
+        "/dev/block/platform/msm_sdcc.1/by-name/cache",
+        "/dev/block/bootdevice/by-name/cache",
+        "/dev/block/mmcblk0p15"
+      ],
+      "system": [
+        "/dev/block/platform/msm_sdcc.1/by-name/system",
+        "/dev/block/bootdevice/by-name/system",
+        "/dev/block/mmcblk0p27"
+      ]
+    },
+    "architecture": "armeabi-v7a",
+    "id": "onyx"
+  },
+  {
+    "flags": [
+      "FSTAB_SKIP_SDCARD0"
+    ],
+    "block_devs": {
+      "base_dirs": [
+        "/dev/block/platform/mtk-msdc.0/by-name"
+      ],
+      "data": [
+        "/dev/block/platform/mtk-msdc.0/by-name/userdata",
+        "/dev/block/mmcblk0p22"
+      ],
+      "system": [
+        "/dev/block/platform/mtk-msdc.0/by-name/system",
+        "/dev/block/mmcblk0p20"
+      ],
+      "boot": [
+        "/dev/block/platform/mtk-msdc.0/by-name/boot",
+        "/dev/block/mmcblk0p7"
+      ],
+      "recovery": [
+        "/dev/block/platform/mtk-msdc.0/by-name/recovery",
+        "/dev/block/mmcblk0p8"
+      ],
+      "cache": [
+        "/dev/block/platform/mtk-msdc.0/by-name/cache",
+        "/dev/block/mmcblk0p21"
+      ]
+    },
+    "id": "OUKITEL",
+    "name": "Oukitel K6000 Pro",
+    "codenames": [
+      "OUKITEL"
+    ],
+    "architecture": "armeabi-v7a"
+  },
+  {
+    "boot_ui": {
+      "graphics_backends": [
+        "overlay_msm_old"
+      ],
+      "supported": true,
+      "default_brightness": 175,
+      "pixel_format": "RGBX_8888",
+      "theme": "portrait_hdpi",
+      "flags": [
+        "TW_GRAPHICS_FORCE_USE_LINELENGTH",
+        "TW_QCOM_RTC_FIX"
+      ],
+      "max_brightness": 255
+    },
+    "codenames": [
+      "ef63s",
+      "ef63l",
+      "ef63k"
+    ],
+    "architecture": "armeabi-v7a",
+    "block_devs": {
+      "data": [
+        "/dev/block/platform/msm_sdcc.1/by-name/userdata",
+        "/dev/block/mmcblk0p29"
+      ],
+      "boot": [
+        "/dev/block/platform/msm_sdcc.1/by-name/boot",
+        "/dev/block/mmcblk0p7"
+      ],
+      "extra": [
+        "/dev/block/platform/msm_sdcc.1/by-name/tz",
+        "/dev/block/mmcblk0p8"
+      ],
+      "base_dirs": [
+        "/dev/block/platform/msm_sdcc.1/by-name"
+      ],
+      "cache": [
+        "/dev/block/platform/msm_sdcc.1/by-name/cache",
+        "/dev/block/mmcblk0p17"
+      ],
+      "system": [
+        "/dev/block/platform/msm_sdcc.1/by-name/system",
+        "/dev/block/mmcblk0p15"
+      ],
+      "recovery": [
+        "/dev/block/platform/msm_sdcc.1/by-name/recovery",
+        "/dev/block/mmcblk0p14"
+      ]
+    },
+    "id": "A910",
+    "name": "Pantech Vega Iron 2"
+  },
+  {
+    "id": "A870",
+    "codenames": [
+      "ef52s",
+      "ef52l",
+      "ef52k"
+    ],
+    "block_devs": {
+      "cache": [
+        "/dev/block/platform/msm_sdcc.1/by-name/cache",
+        "/dev/block/mmcblk0p16"
+      ],
+      "extra": [
+        "/dev/block/platform/msm_sdcc.1/by-name/tz",
+        "/dev/block/mmcblk0p8"
+      ],
+      "data": [
+        "/dev/block/platform/msm_sdcc.1/by-name/userdata",
+        "/dev/block/mmcblk0p26"
+      ],
+      "base_dirs": [
+        "/dev/block/platform/msm_sdcc.1/by-name"
+      ],
+      "recovery": [
+        "/dev/block/platform/msm_sdcc.1/by-name/recovery",
+        "/dev/block/mmcblk0p19"
+      ],
+      "system": [
+        "/dev/block/platform/msm_sdcc.1/by-name/system",
+        "/dev/block/mmcblk0p14"
+      ],
+      "boot": [
+        "/dev/block/platform/msm_sdcc.1/by-name/boot",
+        "/dev/block/mmcblk0p7"
+      ]
+    },
+    "boot_ui": {
+      "default_brightness": 175,
+      "graphics_backends": [
+        "overlay_msm_old"
+      ],
+      "supported": true,
+      "pixel_format": "RGBX_8888",
+      "max_brightness": 255,
+      "flags": [
+        "TW_GRAPHICS_FORCE_USE_LINELENGTH",
+        "TW_QCOM_RTC_FIX"
+      ],
+      "theme": "portrait_hdpi"
+    },
+    "name": "Pantech Vega Iron",
+    "architecture": "armeabi-v7a"
+  },
+  {
+    "crypto": {
+      "supported": true,
+      "header_path": "/dev/block/mmcblk0p19"
+    },
+    "flags": [
+      "FSTAB_SKIP_SDCARD0"
+    ],
+    "id": "Q2",
+    "name": "Quantum GO 4G",
+    "architecture": "arm64-v8a",
+    "boot_ui": {
+      "supported": true,
+      "max_brightness": 255,
+      "flags": [
+        "TW_GRAPHICS_FORCE_USE_LINELENGTH"
+      ],
+      "theme": "portrait_hdpi",
+      "graphics_backends": [
+        "fbdev"
+      ],
+      "cpu_temp_path": "/sys/class/thermal/thermal_zone1/temp",
+      "default_brightness": 162,
+      "pixel_format": "RGBX_8888"
+    },
+    "block_devs": {
+      "boot": [
+        "/dev/block/platform/mtk-msdc.0/by-name/boot",
+        "/dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/boot",
+        "/dev/block/mmcblk0p7"
+      ],
+      "recovery": [
+        "/dev/block/platform/mtk-msdc.0/by-name/recovery",
+        "/dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/recovery",
+        "/dev/block/mmcblk0p8"
+      ],
+      "system": [
+        "/dev/block/platform/mtk-msdc.0/by-name/system",
+        "/dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/system",
+        "/dev/block/mmcblk0p20"
+      ],
+      "data": [
+        "/dev/block/platform/mtk-msdc.0/by-name/userdata",
+        "/dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/userdata",
+        "/dev/block/mmcblk0p22"
+      ],
+      "base_dirs": [
+        "/dev/block/platform/mtk-msdc.0/by-name",
+        "/dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name"
+      ],
+      "cache": [
+        "/dev/block/platform/mtk-msdc.0/by-name/cache",
+        "/dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/cache",
+        "/dev/block/mmcblk0p21"
+      ]
+    },
+    "codenames": [
+      "Q2"
+    ]
+  },
+  {
+    "block_devs": {
+      "base_dirs": [
+        "/dev/block/platform/mtk-msdc.0/by-name",
+        "/dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name"
+      ],
+      "data": [
+        "/dev/block/platform/mtk-msdc.0/by-name/userdata",
+        "/dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/userdata",
+        "/dev/block/mmcblk0p22"
+      ],
+      "boot": [
+        "/dev/block/platform/mtk-msdc.0/by-name/boot",
+        "/dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/boot",
+        "/dev/block/mmcblk0p7"
+      ],
+      "system": [
+        "/dev/block/platform/mtk-msdc.0/by-name/system",
+        "/dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/system",
+        "/dev/block/mmcblk0p20"
+      ],
+      "recovery": [
+        "/dev/block/platform/mtk-msdc.0/by-name/recovery",
+        "/dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/recovery",
+        "/dev/block/mmcblk0p8"
+      ],
+      "cache": [
+        "/dev/block/platform/mtk-msdc.0/by-name/cache",
+        "/dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/cache",
+        "/dev/block/mmcblk0p21"
+      ]
+    },
+    "codenames": [
+      "Q5"
+    ],
+    "crypto": {
+      "header_path": "/dev/block/mmcblk0p19",
+      "supported": true
+    },
+    "name": "Quantum MUV PRO",
+    "architecture": "arm64-v8a",
+    "id": "Q5",
+    "flags": [
+      "FSTAB_SKIP_SDCARD0"
+    ],
+    "boot_ui": {
+      "cpu_temp_path": "/sys/class/thermal/thermal_zone1/temp",
+      "max_brightness": 255,
+      "supported": true,
+      "theme": "portrait_hdpi",
+      "flags": [
+        "TW_GRAPHICS_FORCE_USE_LINELENGTH"
+      ],
+      "pixel_format": "RGBX_8888",
+      "graphics_backends": [
+        "fbdev"
+      ],
+      "default_brightness": 162
+    }
+  },
+  {
+    "id": "s3ve3g",
+    "codenames": [
+      "s3ve3g",
+      "s3ve3gds",
+      "s3ve3gdd",
+      "s3ve3jv"
+    ],
+    "block_devs": {
+      "cache": [
+        "/dev/block/platform/msm_sdcc.1/by-name/cache",
+        "/dev/block/mmcblk0p24"
+      ],
+      "data": [
+        "/dev/block/platform/msm_sdcc.1/by-name/userdata",
+        "/dev/block/mmcblk0p26"
+      ],
+      "system": [
+        "/dev/block/platform/msm_sdcc.1/by-name/system",
+        "/dev/block/mmcblk0p23"
+      ],
+      "recovery": [
+        "/dev/block/platform/msm_sdcc.1/by-name/recovery",
+        "/dev/block/mmcblk0p15"
+      ],
+      "boot": [
+        "/dev/block/platform/msm_sdcc.1/by-name/boot",
+        "/dev/block/mmcblk0p14"
+      ],
+      "base_dirs": [
+        "/dev/block/platform/msm_sdcc.1/by-name"
+      ]
+    },
+    "name": "Samsung Galaxy S 3 Neo (Qcom)",
+    "architecture": "armeabi-v7a"
+  },
+  {
+    "codenames": [
+      "d2",
+      "d2lte",
+      "d2att",
+      "d2can",
+      "d2cri",
+      "d2ltetmo",
+      "d2mtr",
+      "d2spi",
+      "d2spr",
+      "d2tfnspr",
+      "d2tfnvzw",
+      "d2tmo",
+      "d2usc",
+      "d2vmu",
+      "d2vzw",
+      "d2xar"
+    ],
+    "name": "Samsung Galaxy S 3 (Qcom)",
+    "block_devs": {
+      "system": [
+        "/dev/block/platform/msm_sdcc.1/by-name/system",
+        "/dev/block/mmcblk0p14"
+      ],
+      "base_dirs": [
+        "/dev/block/platform/msm_sdcc.1/by-name"
+      ],
+      "recovery": [
+        "/dev/block/platform/msm_sdcc.1/by-name/recovery",
+        "/dev/block/mmcblk0p18"
+      ],
+      "boot": [
+        "/dev/block/platform/msm_sdcc.1/by-name/boot",
+        "/dev/block/mmcblk0p7"
+      ],
+      "cache": [
+        "/dev/block/platform/msm_sdcc.1/by-name/cache",
+        "/dev/block/mmcblk0p17"
+      ],
+      "data": [
+        "/dev/block/platform/msm_sdcc.1/by-name/userdata",
+        "/dev/block/mmcblk0p15"
+      ],
+      "extra": [
+        "/dev/block/platform/msm_sdcc.1/by-name/aboot"
+      ]
+    },
+    "id": "d2",
+    "architecture": "armeabi-v7a"
+  },
+  {
+    "codenames": [
+      "m0",
+      "i9300",
+      "GT-I9300"
+    ],
+    "block_devs": {
+      "boot": [
+        "/dev/block/platform/dw_mmc/by-name/BOOT",
+        "/dev/block/mmcblk0p5"
+      ],
+      "cache": [
+        "/dev/block/platform/dw_mmc/by-name/CACHE",
+        "/dev/block/mmcblk0p8"
+      ],
+      "recovery": [
+        "/dev/block/platform/dw_mmc/by-name/RECOVERY",
+        "/dev/block/mmcblk0p6"
+      ],
+      "base_dirs": [
+        "/dev/block/platform/dw_mmc/by-name"
+      ],
+      "system": [
+        "/dev/block/platform/dw_mmc/by-name/SYSTEM",
+        "/dev/block/mmcblk0p9"
+      ],
+      "data": [
+        "/dev/block/platform/dw_mmc/by-name/USERDATA",
+        "/dev/block/mmcblk0p12"
+      ],
+      "extra": [
+        "/dev/block/platform/dw_mmc/by-name/RADIO",
+        "/dev/block/mmcblk0p7"
+      ]
+    },
+    "architecture": "armeabi-v7a",
+    "name": "Samsung Galaxy S 3 (i9300)",
+    "id": "m0"
+  },
+  {
+    "name": "Samsung Galaxy S 3 (i9305)",
+    "architecture": "armeabi-v7a",
+    "codenames": [
+      "m3"
+    ],
+    "block_devs": {
+      "extra": [
+        "/dev/block/platform/dw_mmc/by-name/RADIO"
+      ],
+      "recovery": [
+        "/dev/block/platform/dw_mmc/by-name/RECOVERY",
+        "/dev/block/mmcblk0p9"
+      ],
+      "cache": [
+        "/dev/block/platform/dw_mmc/by-name/CACHE",
+        "/dev/block/mmcblk0p12"
+      ],
+      "boot": [
+        "/dev/block/platform/dw_mmc/by-name/BOOT",
+        "/dev/block/mmcblk0p8"
+      ],
+      "data": [
+        "/dev/block/platform/dw_mmc/by-name/USERDATA",
+        "/dev/block/mmcblk0p16"
+      ],
+      "system": [
+        "/dev/block/platform/dw_mmc/by-name/SYSTEM",
+        "/dev/block/mmcblk0p13"
+      ],
+      "base_dirs": [
+        "/dev/block/platform/dw_mmc/by-name"
+      ]
+    },
+    "id": "m3"
+  },
+  {
+    "id": "golden",
+    "codenames": [
+      "golden"
+    ],
+    "name": "Samsung Galaxy S 3 Mini",
+    "block_devs": {
+      "recovery": [
+        "/dev/block/mmcblk0p21"
+      ],
+      "data": [
+        "/dev/block/mmcblk0p25"
+      ],
+      "cache": [
+        "/dev/block/mmcblk0p23"
+      ],
+      "system": [
+        "/dev/block/mmcblk0p22"
+      ],
+      "boot": [
+        "/dev/block/mmcblk0p20"
+      ]
+    },
+    "architecture": "armeabi-v7a"
+  },
+  {
+    "codenames": [
+      "jflte",
+      "jflteatt",
+      "jfltecan",
+      "jfltecri",
+      "jfltecsp",
+      "jflterefreshspr",
+      "jfltespr",
+      "jfltetmo",
+      "jflteusc",
+      "jfltevzw",
+      "jfltexx",
+      "jfltezm",
+      "jactivelte",
+      "jgedlte",
+      "jftddxx",
+      "jfvelte",
+      "jfveltexx"
+    ],
+    "block_devs": {
+      "boot": [
+        "/dev/block/platform/msm_sdcc.1/by-name/boot",
+        "/dev/block/mmcblk0p20"
+      ],
+      "cache": [
+        "/dev/block/platform/msm_sdcc.1/by-name/cache",
+        "/dev/block/mmcblk0p18"
+      ],
+      "base_dirs": [
+        "/dev/block/platform/msm_sdcc.1/by-name"
+      ],
+      "data": [
+        "/dev/block/platform/msm_sdcc.1/by-name/userdata",
+        "/dev/block/mmcblk0p29"
+      ],
+      "extra": [
+        "/dev/block/platform/msm_sdcc.1/by-name/aboot"
+      ],
+      "system": [
+        "/dev/block/platform/msm_sdcc.1/by-name/system",
+        "/dev/block/mmcblk0p16"
+      ],
+      "recovery": [
+        "/dev/block/platform/msm_sdcc.1/by-name/recovery",
+        "/dev/block/mmcblk0p21"
+      ]
+    },
+    "name": "Samsung Galaxy S 4 (Qcom)",
+    "architecture": "armeabi-v7a",
+    "crypto": {
+      "supported": true,
+      "header_path": "footer"
+    },
+    "boot_ui": {
+      "theme": "portrait_hdpi",
+      "supported": true,
+      "flags": [
+        "TW_HAS_DOWNLOAD_MODE",
+        "TW_PREFER_LCD_BACKLIGHT"
+      ],
+      "graphics_backends": [
+        "fbdev"
+      ]
+    },
+    "id": "jflte"
+  },
+  {
+    "block_devs": {
+      "system": [
+        "/dev/block/platform/dw_mmc.0/by-name/SYSTEM",
+        "/dev/block/mmcblk0p20"
+      ],
+      "cache": [
+        "/dev/block/platform/dw_mmc.0/by-name/CACHE",
+        "/dev/block/mmcblk0p19"
+      ],
+      "extra": [
+        "/dev/block/platform/dw_mmc.0/by-name/RADIO",
+        "/dev/block/platform/dw_mmc.0/by-name/CDMA-RADIO"
+      ],
+      "data": [
+        "/dev/block/platform/dw_mmc.0/by-name/USERDATA",
+        "/dev/block/mmcblk0p21"
+      ],
+      "boot": [
+        "/dev/block/platform/dw_mmc.0/by-name/BOOT",
+        "/dev/block/mmcblk0p9"
+      ],
+      "base_dirs": [
+        "/dev/block/platform/dw_mmc.0/by-name"
+      ],
+      "recovery": [
+        "/dev/block/platform/dw_mmc.0/by-name/RECOVERY",
+        "/dev/block/mmcblk0p10"
+      ]
+    },
+    "id": "i9500",
+    "name": "Samsung Galaxy S 4 (Exynos)",
+    "codenames": [
+      "ja3g",
+      "jalte",
+      "jaltektt",
+      "jalteskt",
+      "i9500"
+    ],
+    "architecture": "armeabi-v7a"
+  },
+  {
+    "name": "Samsung Galaxy S 4 LTE-A",
+    "architecture": "armeabi-v7a",
+    "id": "ks01lte",
+    "block_devs": {
+      "base_dirs": [
+        "/dev/block/platform/msm_sdcc.1/by-name"
+      ],
+      "system": [
+        "/dev/block/platform/msm_sdcc.1/by-name/system",
+        "/dev/block/mmcblk0p23"
+      ],
+      "cache": [
+        "/dev/block/platform/msm_sdcc.1/by-name/cache",
+        "/dev/block/mmcblk0p24"
+      ],
+      "data": [
+        "/dev/block/platform/msm_sdcc.1/by-name/userdata",
+        "/dev/block/mmcblk0p26"
+      ],
+      "boot": [
+        "/dev/block/platform/msm_sdcc.1/by-name/boot",
+        "/dev/block/mmcblk0p14"
+      ],
+      "recovery": [
+        "/dev/block/platform/msm_sdcc.1/by-name/recovery",
+        "/dev/block/mmcblk0p15"
+      ]
+    },
+    "codenames": [
+      "ks01lte",
+      "ks01ltektt",
+      "ks01lteskt"
+    ]
+  },
+  {
+    "codenames": [
+      "jactivelteskt"
+    ],
+    "name": "Samsung Galaxy S 4 Active (SKT Variant)",
+    "id": "jactivelteskt",
+    "block_devs": {
+      "system": [
+        "/dev/block/platform/msm_sdcc.1/by-name/system",
+        "/dev/block/mmcblk0p23"
+      ],
+      "base_dirs": [
+        "/dev/block/platform/msm_sdcc.1/by-name"
+      ],
+      "cache": [
+        "/dev/block/platform/msm_sdcc.1/by-name/cache",
+        "/dev/block/mmcblk0p24"
+      ],
+      "data": [
+        "/dev/block/platform/msm_sdcc.1/by-name/data",
+        "/dev/block/mmcblk0p25"
+      ],
+      "boot": [
+        "/dev/block/platform/msm_sdcc.1/by-name/boot",
+        "/dev/block/mmcblk0p14"
+      ],
+      "recovery": [
+        "/dev/block/platform/msm_sdcc.1/by-name/recovery",
+        "/dev/block/mmcblk0p15"
+      ]
+    },
+    "architecture": "armeabi-v7a"
+  },
+  {
+    "codenames": [
+      "serrano3g",
+      "serrano3gxx",
+      "serranods",
+      "serranodsxx",
+      "serranolte",
+      "serranoltexx"
+    ],
+    "block_devs": {
+      "cache": [
+        "/dev/block/platform/msm_sdcc.1/by-name/cache",
+        "/dev/block/mmcblk0p22"
+      ],
+      "base_dirs": [
+        "/dev/block/platform/msm_sdcc.1/by-name"
+      ],
+      "data": [
+        "/dev/block/platform/msm_sdcc.1/by-name/userdata",
+        "/dev/block/mmcblk0p24"
+      ],
+      "system": [
+        "/dev/block/platform/msm_sdcc.1/by-name/system",
+        "/dev/block/mmcblk0p21"
+      ],
+      "boot": [
+        "/dev/block/platform/msm_sdcc.1/by-name/boot",
+        "/dev/block/mmcblk0p13"
+      ],
+      "recovery": [
+        "/dev/block/platform/msm_sdcc.1/by-name/recovery"
+      ]
+    },
+    "name": "Samsung Galaxy S 4 Mini",
+    "id": "serrano",
+    "architecture": "armeabi-v7a"
+  },
+  {
+    "id": "klte",
+    "codenames": [
+      "klte",
+      "kltecan",
+      "kltedv",
+      "kltespr",
+      "kltetmo",
+      "klteusc",
+      "kltevzw",
+      "kltexx",
+      "kltekdi"
+    ],
+    "name": "Samsung Galaxy S 5 (Qcom)",
+    "architecture": "armeabi-v7a",
+    "block_devs": {
+      "base_dirs": [
+        "/dev/block/platform/msm_sdcc.1/by-name"
+      ],
+      "cache": [
+        "/dev/block/platform/msm_sdcc.1/by-name/cache",
+        "/dev/block/mmcblk0p24"
+      ],
+      "system": [
+        "/dev/block/platform/msm_sdcc.1/by-name/system",
+        "/dev/block/mmcblk0p23"
+      ],
+      "data": [
+        "/dev/block/platform/msm_sdcc.1/by-name/userdata",
+        "/dev/block/mmcblk0p26"
+      ],
+      "boot": [
+        "/dev/block/platform/msm_sdcc.1/by-name/boot",
+        "/dev/block/mmcblk0p15"
+      ],
+      "recovery": [
+        "/dev/block/platform/msm_sdcc.1/by-name/recovery",
+        "/dev/block/mmcblk0p14"
+      ]
+    }
+  },
+  {
+    "id": "kmini3g",
+    "name": "Samsung Galaxy S 5 Mini (Qcom)",
+    "codenames": [
+      "kmini3g"
+    ],
+    "block_devs": {
+      "base_dirs": [
+        "/dev/block/platform/msm_sdcc.1/by-name"
+      ],
+      "system": [
+        "/dev/block/platform/msm_sdcc.1/by-name/system",
+        "/dev/block/mmcblk0p23"
+      ],
+      "cache": [
+        "/dev/block/platform/msm_sdcc.1/by-name/cache",
+        "/dev/block/mmcblk0p24"
+      ],
+      "data": [
+        "/dev/block/platform/msm_sdcc.1/by-name/userdata",
+        "/dev/block/mmcblk0p26"
+      ],
+      "boot": [
+        "/dev/block/platform/msm_sdcc.1/by-name/boot",
+        "/dev/block/mmcblk0p14"
+      ],
+      "recovery": [
+        "/dev/block/platform/msm_sdcc.1/by-name/recovery",
+        "/dev/block/mmcblk0p15"
+      ]
+    },
+    "architecture": "armeabi-v7a"
+  },
+  {
+    "id": "k3g",
+    "block_devs": {
+      "base_dirs": [
+        "/dev/block/platform/12200000.dwmmc0/by-name"
+      ],
+      "system": [
+        "/dev/block/platform/12200000.dwmmc0/by-name/SYSTEM",
+        "/dev/block/mmcblk0p18"
+      ],
+      "cache": [
+        "/dev/block/platform/12200000.dwmmc0/by-name/CACHE",
+        "/dev/block/mmcblk0p19"
+      ],
+      "data": [
+        "/dev/block/platform/12200000.dwmmc0/by-name/USERDATA",
+        "/dev/block/mmcblk0p21"
+      ],
+      "boot": [
+        "/dev/block/platform/12200000.dwmmc0/by-name/BOOT",
+        "/dev/block/mmcblk0p9"
+      ],
+      "recovery": [
+        "/dev/block/platform/12200000.dwmmc0/by-name/RECOVERY",
+        "/dev/block/mmcblk0p10"
+      ],
+      "extra": [
+        "/dev/block/platform/12200000.dwmmc0/by-name/RADIO",
+        "/dev/block/platform/12200000.dwmmc0/by-name/CDMA-RADIO"
+      ]
+    },
+    "architecture": "armeabi-v7a",
+    "name": "Samsung Galaxy S 5 (Exynos)",
+    "codenames": [
+      "k3g",
+      "k3gxx"
+    ]
+  },
+  {
+    "id": "kminilte",
+    "block_devs": {
+      "base_dirs": [
+        "/dev/block/platform/dw_mmc.0/by-name"
+      ],
+      "system": [
+        "/dev/block/platform/dw_mmc.0/by-name/SYSTEM",
+        "/dev/block/mmcblk0p18"
+      ],
+      "cache": [
+        "/dev/block/platform/dw_mmc.0/by-name/CACHE",
+        "/dev/block/mmcblk0p19"
+      ],
+      "data": [
+        "/dev/block/platform/dw_mmc.0/by-name/USERDATA",
+        "/dev/block/mmcblk0p21"
+      ],
+      "boot": [
+        "/dev/block/platform/dw_mmc.0/by-name/BOOT",
+        "/dev/block/mmcblk0p9"
+      ],
+      "recovery": [
+        "/dev/block/platform/dw_mmc.0/by-name/RECOVERY",
+        "/dev/block/mmcblk0p10"
+      ],
+      "extra": [
+        "/dev/block/platform/dw_mmc.0/by-name/RADIO",
+        "/dev/block/platform/dw_mmc.0/by-name/CDMA-RADIO"
+      ]
+    },
+    "architecture": "armeabi-v7a",
+    "name": "Samsung Galaxy S 5 Mini LTE (Exynos)",
+    "codenames": [
+      "kminilte",
+      "kminiltexx"
+    ]
+  },
+  {
+    "id": "lentislte",
+    "block_devs": {
+      "system": [
+        "/dev/block/platform/msm_sdcc.1/by-name/system",
+        "/dev/block/mmcblk0p24"
+      ],
+      "cache": [
+        "/dev/block/platform/msm_sdcc.1/by-name/cache",
+        "/dev/block/mmcblk0p25"
+      ],
+      "base_dirs": [
+        "/dev/block/platform/msm_sdcc.1/by-name"
+      ],
+      "data": [
+        "/dev/block/platform/msm_sdcc.1/by-name/userdata",
+        "/dev/block/mmcblk0p27"
+      ],
+      "boot": [
+        "/dev/block/platform/msm_sdcc.1/by-name/boot",
+        "/dev/block/mmcblk0p17"
+      ],
+      "recovery": [
+        "/dev/block/platform/msm_sdcc.1/by-name/recovery"
+      ]
+    },
+    "architecture": "armeabi-v7a",
+    "name": "Samsung Galaxy S 5 Broadband LTE-A",
+    "codenames": [
+      "lentislte",
+      "lentislteskt",
+      "lentisltektt",
+      "lentisltelgt"
+    ]
+  },
+  {
+    "id": "kccat6",
+    "block_devs": {
+      "base_dirs": [
+        "/dev/block/platform/msm_sdcc.1/by-name"
+      ],
+      "system": [
+        "/dev/block/platform/msm_sdcc.1/by-name/system",
+        "/dev/block/mmcblk0p24"
+      ],
+      "cache": [
+        "/dev/block/platform/msm_sdcc.1/by-name/cache",
+        "/dev/block/mmcblk0p25"
+      ],
+      "data": [
+        "/dev/block/platform/msm_sdcc.1/by-name/userdata",
+        "/dev/block/mmcblk0p27"
+      ],
+      "boot": [
+        "/dev/block/platform/msm_sdcc.1/by-name/boot",
+        "/dev/block/mmcblk0p17"
+      ],
+      "recovery": [
+        "/dev/block/platform/msm_sdcc.1/by-name/recovery",
+        "/dev/block/mmcblk0p18"
+      ]
+    },
+    "codenames": [
+      "kccat6",
+      "kccat6xx"
+    ],
+    "architecture": "armeabi-v7a",
+    "name": "Samsung Galaxy S 5 4G+"
+  },
+  {
+    "block_devs": {
+      "base_dirs": [
+        "/dev/block/platform/15570000.ufs/by-name"
+      ],
+      "cache": [
+        "/dev/block/platform/15570000.ufs/by-name/CACHE",
+        "/dev/block/sda16"
+      ],
+      "system": [
+        "/dev/block/platform/15570000.ufs/by-name/SYSTEM",
+        "/dev/block/sda15"
+      ],
+      "recovery": [
+        "/dev/block/platform/15570000.ufs/by-name/RECOVERY",
+        "/dev/block/sda6"
+      ],
+      "data": [
+        "/dev/block/platform/15570000.ufs/by-name/USERDATA",
+        "/dev/block/sda17"
+      ],
+      "boot": [
+        "/dev/block/platform/15570000.ufs/by-name/BOOT",
+        "/dev/block/sda5"
+      ],
+      "extra": [
+        "/dev/block/platform/15570000.ufs/by-name/RADIO"
+      ]
+    },
+    "id": "zerolte",
+    "architecture": "arm64-v8a",
+    "name": "Samsung Galaxy S 6 Flat/Edge",
+    "codenames": [
+      "zeroflte",
+      "zerofltebmc",
+      "zerofltetmo",
+      "zerofltexx",
+      "zerolte",
+      "zeroltebmc",
+      "zeroltetmo",
+      "zeroltexx"
+    ]
+  },
+  {
+    "block_devs": {
+      "system": [
+        "/dev/block/platform/15570000.ufs/by-name/SYSTEM",
+        "/dev/block/sda18"
+      ],
+      "base_dirs": [
+        "/dev/block/platform/15570000.ufs/by-name"
+      ],
+      "cache": [
+        "/dev/block/platform/15570000.ufs/by-name/CACHE",
+        "/dev/block/sda19"
+      ],
+      "data": [
+        "/dev/block/platform/15570000.ufs/by-name/USERDATA",
+        "/dev/block/sda21"
+      ],
+      "boot": [
+        "/dev/block/platform/15570000.ufs/by-name/BOOT",
+        "/dev/block/sda8"
+      ],
+      "recovery": [
+        "/dev/block/platform/15570000.ufs/by-name/RECOVERY",
+        "/dev/block/sda9"
+      ],
+      "extra": [
+        "/dev/block/platform/15570000.ufs/by-name/RADIO"
+      ]
+    },
+    "id": "zeroltespr",
+    "architecture": "arm64-v8a",
+    "codenames": [
+      "zerofltespr",
+      "zeroltespr"
+    ],
+    "name": "Samsung Galaxy S 6 Flat/Edge (Sprint)"
+  },
+  {
+    "codenames": [
+      "zenlte",
+      "zenltexx"
+    ],
+    "block_devs": {
+      "base_dirs": [
+        "/dev/block/platform/15570000.ufs/by-name"
+      ],
+      "system": [
+        "/dev/block/platform/15570000.ufs/by-name/SYSTEM",
+        "/dev/block/sda14"
+      ],
+      "cache": [
+        "/dev/block/platform/15570000.ufs/by-name/CACHE",
+        "/dev/block/sda15"
+      ],
+      "data": [
+        "/dev/block/platform/15570000.ufs/by-name/USERDATA",
+        "/dev/block/sda17"
+      ],
+      "boot": [
+        "/dev/block/platform/15570000.ufs/by-name/BOOT",
+        "/dev/block/sda5"
+      ],
+      "recovery": [
+        "/dev/block/platform/15570000.ufs/by-name/RECOVERY",
+        "/dev/block/sda6"
+      ],
+      "extra": [
+        "/dev/block/platform/15570000.ufs/by-name/RADIO"
+      ]
+    },
+    "id": "zenlte",
+    "architecture": "arm64-v8a",
+    "name": "Samsung Galaxy S 6 Edge+"
+  },
+  {
+    "codenames": [
+      "herolte",
+      "heroltexx",
+      "heroltebmc",
+      "heroltektt",
+      "heroltelgt",
+      "herolteskt",
+      "hero2lte",
+      "hero2ltexx",
+      "hero2ltebmc",
+      "hero2ltektt",
+      "hero2ltelgt",
+      "hero2lteskt"
+    ],
+    "id": "herolte",
+    "name": "Samsung Galaxy S 7 Flat/Edge (Exynos)",
+    "block_devs": {
+      "cache": [
+        "/dev/block/platform/15570000.ufs/by-name/CACHE",
+        "/dev/block/platform/155a0000.ufs/by-name/CACHE",
+        "/dev/block/sda15"
+      ],
+      "base_dirs": [
+        "/dev/block/platform/15570000.ufs/by-name",
+        "/dev/block/platform/155a0000.ufs/by-name"
+      ],
+      "data": [
+        "/dev/block/platform/15570000.ufs/by-name/USERDATA",
+        "/dev/block/platform/155a0000.ufs/by-name/USERDATA",
+        "/dev/block/sda18"
+      ],
+      "extra": [
+        "/dev/block/platform/15570000.ufs/by-name/RADIO",
+        "/dev/block/platform/155a0000.ufs/by-name/RADIO",
+        "/dev/block/sda8"
+      ],
+      "system": [
+        "/dev/block/platform/15570000.ufs/by-name/SYSTEM",
+        "/dev/block/platform/155a0000.ufs/by-name/SYSTEM",
+        "/dev/block/sda14"
+      ],
+      "boot": [
+        "/dev/block/platform/15570000.ufs/by-name/BOOT",
+        "/dev/block/platform/155a0000.ufs/by-name/BOOT",
+        "/dev/block/sda5"
+      ],
+      "recovery": [
+        "/dev/block/platform/15570000.ufs/by-name/RECOVERY",
+        "/dev/block/platform/155a0000.ufs/by-name/RECOVERY",
+        "/dev/block/sda6"
+      ]
+    },
+    "architecture": "arm64-v8a",
+    "boot_ui": {
+      "graphics_backends": [
+        "fbdev"
+      ],
+      "supported": true,
+      "flags": [
+        "TW_HAS_DOWNLOAD_MODE"
+      ],
+      "brightness_path": "/sys/devices/13900000.dsim/backlight/panel/brightness",
+      "pixel_format": "ABGR_8888",
+      "default_brightness": 162,
+      "max_brightness": 255,
+      "theme": "portrait_hdpi"
+    }
+  },
+  {
+    "architecture": "armeabi-v7a",
+    "id": "t0lte",
+    "block_devs": {
+      "system": [
+        "/dev/block/platform/dw_mmc/by-name/SYSTEM",
+        "/dev/block/mmcblk0p13"
+      ],
+      "recovery": [
+        "/dev/block/platform/dw_mmc/by-name/RECOVERY",
+        "/dev/block/mmcblk0p9"
+      ],
+      "extra": [
+        "/dev/block/platform/dw_mmc/by-name/RADIO"
+      ],
+      "base_dirs": [
+        "/dev/block/platform/dw_mmc/by-name"
+      ],
+      "boot": [
+        "/dev/block/platform/dw_mmc/by-name/BOOT",
+        "/dev/block/mmcblk0p8"
+      ],
+      "cache": [
+        "/dev/block/platform/dw_mmc/by-name/CACHE",
+        "/dev/block/mmcblk0p12"
+      ],
+      "data": [
+        "/dev/block/platform/dw_mmc/by-name/USERDATA",
+        "/dev/block/mmcblk0p16"
+      ]
+    },
+    "name": "Samsung Galaxy Note 2",
+    "codenames": [
+      "t0lte",
+      "t0lteatt",
+      "t0ltecan",
+      "t0ltelgt",
+      "t0ltetmo",
+      "t0ltevzw"
+    ]
+  },
+  {
+    "block_devs": {
+      "system": [
+        "/dev/block/platform/msm_sdcc.1/by-name/system",
+        "/dev/block/mmcblk0p23"
+      ],
+      "base_dirs": [
+        "/dev/block/platform/msm_sdcc.1/by-name"
+      ],
+      "boot": [
+        "/dev/block/platform/msm_sdcc.1/by-name/boot",
+        "/dev/block/mmcblk0p14"
+      ],
+      "data": [
+        "/dev/block/platform/msm_sdcc.1/by-name/userdata",
+        "/dev/block/mmcblk0p26"
+      ],
+      "recovery": [
+        "/dev/block/platform/msm_sdcc.1/by-name/recovery",
+        "/dev/block/mmcblk0p15"
+      ],
+      "cache": [
+        "/dev/block/platform/msm_sdcc.1/by-name/cache",
+        "/dev/block/mmcblk0p24"
+      ]
+    },
+    "name": "Samsung Galaxy Note 3 (Snapdragon)",
+    "boot_ui": {
+      "flags": [
+        "TW_QCOM_RTC_FIX",
+        "TW_HAS_DOWNLOAD_MODE"
+      ],
+      "pixel_format": "RGBX_8888",
+      "max_brightness": 255,
+      "graphics_backends": [
+        "fbdev"
+      ],
+      "brightness_path": "/sys/devices/mdp.0/qcom,mdss_fb_primary.185/leds/lcd-backlight/brightness",
+      "default_brightness": 162,
+      "supported": true,
+      "theme": "portrait_hdpi"
+    },
+    "architecture": "armeabi-v7a",
+    "codenames": [
+      "hlte",
+      "hltecan",
+      "hltespr",
+      "hltetmo",
+      "hlteusc",
+      "hltevzw",
+      "hltexx"
+    ],
+    "id": "hlte"
+  },
+  {
+    "codenames": [
+      "ha3g"
+    ],
+    "block_devs": {
+      "extra": [
+        "/dev/block/platform/dw_mmc.0/by-name/RADIO",
+        "/dev/block/platform/dw_mmc.0/by-name/CDMA-RADIO"
+      ],
+      "boot": [
+        "/dev/block/platform/dw_mmc.0/by-name/BOOT",
+        "/dev/block/mmcblk0p9"
+      ],
+      "recovery": [
+        "/dev/block/platform/dw_mmc.0/by-name/RECOVERY",
+        "/dev/block/mmcblk0p10"
+      ],
+      "system": [
+        "/dev/block/platform/dw_mmc.0/by-name/SYSTEM",
+        "/dev/block/mmcblk0p20"
+      ],
+      "base_dirs": [
+        "/dev/block/platform/dw_mmc.0/by-name"
+      ],
+      "cache": [
+        "/dev/block/platform/dw_mmc.0/by-name/CACHE",
+        "/dev/block/mmcblk0p19"
+      ],
+      "data": [
+        "/dev/block/platform/dw_mmc.0/by-name/USERDATA",
+        "/dev/block/mmcblk0p21"
+      ]
+    },
+    "name": "Samsung Galaxy Note 3 (Exynos)",
+    "id": "ha3g",
+    "architecture": "armeabi-v7a"
+  },
+  {
+    "architecture": "armeabi-v7a",
+    "block_devs": {
+      "boot": [
+        "/dev/block/platform/msm_sdcc.1/by-name/boot",
+        "/dev/block/mmcblk0p14"
+      ],
+      "system": [
+        "/dev/block/platform/msm_sdcc.1/by-name/system",
+        "/dev/block/mmcblk0p23"
+      ],
+      "base_dirs": [
+        "/dev/block/platform/msm_sdcc.1/by-name"
+      ],
+      "data": [
+        "/dev/block/platform/msm_sdcc.1/by-name/userdata",
+        "/dev/block/mmcblk0p25"
+      ],
+      "recovery": [
+        "/dev/block/platform/msm_sdcc.1/by-name/recovery",
+        "/dev/block/mmcblk0p15"
+      ],
+      "cache": [
+        "/dev/block/platform/msm_sdcc.1/by-name/cache",
+        "/dev/block/mmcblk0p24"
+      ]
+    },
+    "codenames": [
+      "hlteskt"
+    ],
+    "boot_ui": {
+      "flags": [
+        "TW_QCOM_RTC_FIX",
+        "TW_HAS_DOWNLOAD_MODE"
+      ],
+      "default_brightness": 162,
+      "max_brightness": 255,
+      "theme": "portrait_hdpi",
+      "supported": true,
+      "graphics_backends": [
+        "fbdev"
+      ],
+      "brightness_path": "/sys/devices/mdp.0/qcom,mdss_fb_primary.185/leds/lcd-backlight/brightness",
+      "pixel_format": "RGBX_8888"
+    },
+    "id": "hlteskt",
+    "name": "Samsung Galaxy Note 3 LTE-A"
+  },
+  {
+    "id": "hllte",
+    "name": "Samsung Galaxy Note 3 Neo",
+    "block_devs": {
+      "base_dirs": [
+        "/dev/block/platform/dw_mmc.0/by-name"
+      ],
+      "cache": [
+        "/dev/block/platform/dw_mmc.0/by-name/CACHE",
+        "/dev/block/mmcblk0p19"
+      ],
+      "boot": [
+        "/dev/block/platform/dw_mmc.0/by-name/BOOT",
+        "/dev/block/mmcblk0p9"
+      ],
+      "data": [
+        "/dev/block/platform/dw_mmc.0/by-name/USERDATA",
+        "/dev/block/mmcblk0p21"
+      ],
+      "system": [
+        "/dev/block/platform/dw_mmc.0/by-name/SYSTEM",
+        "/dev/block/mmcblk0p18"
+      ],
+      "extra": [
+        "/dev/block/platform/dw_mmc.0/by-name/RADIO",
+        "/dev/block/platform/dw_mmc.0/by-name/CDMA-RADIO"
+      ],
+      "recovery": [
+        "/dev/block/platform/dw_mmc.0/by-name/RECOVERY",
+        "/dev/block/mmcblk0p10"
+      ]
+    },
+    "architecture": "armeabi-v7a",
+    "codenames": [
+      "hllte",
+      "hlltexx"
+    ]
+  },
+  {
+    "codenames": [
+      "trlte",
+      "trltecan",
+      "trltedt",
+      "trltespr",
+      "trltetmo",
+      "trlteusc",
+      "trltevzw",
+      "trltexx"
+    ],
+    "id": "trlte",
+    "name": "Samsung Galaxy Note 4 (Snapdragon)",
+    "architecture": "armeabi-v7a",
+    "block_devs": {
+      "cache": [
+        "/dev/block/platform/msm_sdcc.1/by-name/cache",
+        "/dev/block/mmcblk0p25"
+      ],
+      "base_dirs": [
+        "/dev/block/platform/msm_sdcc.1/by-name"
+      ],
+      "boot": [
+        "/dev/block/platform/msm_sdcc.1/by-name/boot",
+        "/dev/block/mmcblk0p17"
+      ],
+      "data": [
+        "/dev/block/platform/msm_sdcc.1/by-name/userdata",
+        "/dev/block/mmcblk0p26",
+        "/dev/block/mmcblk0p27"
+      ],
+      "recovery": [
+        "/dev/block/platform/msm_sdcc.1/by-name/recovery"
+      ],
+      "system": [
+        "/dev/block/platform/msm_sdcc.1/by-name/system",
+        "/dev/block/mmcblk0p24"
+      ]
+    }
+  },
+  {
+    "name": "Samsung Galaxy Note 4 (Exynos)",
+    "id": "trelte",
+    "codenames": [
+      "trelte",
+      "treltektt",
+      "treltelgt",
+      "trelteskt",
+      "treltexx",
+      "tre3g",
+      "trhplte"
+    ],
+    "block_devs": {
+      "extra": [
+        "/dev/block/platform/15540000.dwmmc0/by-name/RADIO",
+        "/dev/block/platform/15540000.dwmmc0/by-name/CDMA-RADIO"
+      ],
+      "cache": [
+        "/dev/block/platform/15540000.dwmmc0/by-name/CACHE",
+        "/dev/block/mmcblk0p19"
+      ],
+      "system": [
+        "/dev/block/platform/15540000.dwmmc0/by-name/SYSTEM",
+        "/dev/block/mmcblk0p18"
+      ],
+      "base_dirs": [
+        "/dev/block/platform/15540000.dwmmc0/by-name"
+      ],
+      "recovery": [
+        "/dev/block/platform/15540000.dwmmc0/by-name/RECOVERY",
+        "/dev/block/mmcblk0p10"
+      ],
+      "boot": [
+        "/dev/block/platform/15540000.dwmmc0/by-name/BOOT",
+        "/dev/block/mmcblk0p9"
+      ],
+      "data": [
+        "/dev/block/platform/15540000.dwmmc0/by-name/USERDATA",
+        "/dev/block/mmcblk0p21"
+      ]
+    },
+    "architecture": "armeabi-v7a"
+  },
+  {
+    "codenames": [
+      "noblelte",
+      "nobleltespr"
+    ],
+    "block_devs": {
+      "recovery": [
+        "/dev/block/platform/15570000.ufs/by-name/RECOVERY",
+        "/dev/block/sda8"
+      ],
+      "system": [
+        "/dev/block/platform/15570000.ufs/by-name/SYSTEM",
+        "/dev/block/sda16"
+      ],
+      "cache": [
+        "/dev/block/platform/15570000.ufs/by-name/CACHE",
+        "/dev/block/sda17"
+      ],
+      "base_dirs": [
+        "/dev/block/platform/15570000.ufs/by-name"
+      ],
+      "extra": [
+        "/dev/block/platform/15570000.ufs/by-name/RADIO"
+      ],
+      "data": [
+        "/dev/block/platform/15570000.ufs/by-name/USERDATA",
+        "/dev/block/sda19"
+      ],
+      "boot": [
+        "/dev/block/platform/15570000.ufs/by-name/BOOT",
+        "/dev/block/sda7"
+      ]
+    },
+    "id": "nobleltespr",
+    "name": "Samsung Galaxy Note 5 (Sprint)",
+    "architecture": "arm64-v8a"
+  },
+  {
+    "id": "a5",
+    "block_devs": {
+      "recovery": [
+        "/dev/block/platform/7824900.sdhci/by-name/recovery",
+        "/dev/block/bootdevice/by-name/recovery",
+        "/dev/block/mmcblk0p17"
+      ],
+      "cache": [
+        "/dev/block/platform/7824900.sdhci/by-name/cache",
+        "/dev/block/bootdevice/by-name/cache",
+        "/dev/block/mmcblk0p25"
+      ],
+      "boot": [
+        "/dev/block/platform/7824900.sdhci/by-name/boot",
+        "/dev/block/bootdevice/by-name/boot",
+        "/dev/block/mmcblk0p16"
+      ],
+      "base_dirs": [
+        "/dev/block/platform/7824900.sdhci/by-name",
+        "/dev/block/bootdevice/by-name"
+      ],
+      "system": [
+        "/dev/block/platform/7824900.sdhci/by-name/system",
+        "/dev/block/bootdevice/by-name/system",
+        "/dev/block/mmcblk0p24"
+      ],
+      "data": [
+        "/dev/block/platform/7824900.sdhci/by-name/data",
+        "/dev/block/bootdevice/by-name/data",
+        "/dev/block/mmcblk0p27"
+      ]
+    },
+    "architecture": "armeabi-v7a",
+    "codenames": [
+      "a5lte",
+      "a5ltexx",
+      "a5ulte",
+      "a5ultexx"
+    ],
+    "name": "Samsung Galaxy A5 (2015)",
+    "boot_ui": {
+      "supported": true,
+      "theme": "portrait_hdpi",
+      "max_brightness": 255,
+      "graphics_backends": [
+        "fbdev"
+      ],
+      "flags": [
+        "TW_HAS_DOWNLOAD_MODE",
+        "TW_QCOM_RTC_FIX"
+      ]
+    }
+  },
+  {
+    "id": "j7e",
+    "architecture": "arm64-v8a",
+    "codenames": [
+      "j7elte",
+      "j7eltexx",
+      "j7e3g",
+      "j7e3gxx"
+    ],
+    "name": "Samsung Galaxy J7 (Exynos)",
+    "block_devs": {
+      "recovery": [
+        "/dev/block/platform/13540000.dwmmc0/by-name/RECOVERY",
+        "/dev/block/mmcblk0p11"
+      ],
+      "extra": [
+        "/dev/block/platform/13540000.dwmmc0/by-name/CDMA-RADIO",
+        "/dev/block/platform/13540000.dwmmc0/by-name/RADIO"
+      ],
+      "base_dirs": [
+        "/dev/block/platform/13540000.dwmmc0/by-name"
+      ],
+      "data": [
+        "/dev/block/platform/13540000.dwmmc0/by-name/USERDATA",
+        "/dev/block/mmcblk0p23"
+      ],
+      "cache": [
+        "/dev/block/platform/13540000.dwmmc0/by-name/CACHE",
+        "/dev/block/mmcblk0p21"
+      ],
+      "boot": [
+        "/dev/block/platform/13540000.dwmmc0/by-name/BOOT",
+        "/dev/block/mmcblk0p10"
+      ],
+      "system": [
+        "/dev/block/platform/13540000.dwmmc0/by-name/SYSTEM",
+        "/dev/block/mmcblk0p20"
+      ]
+    }
+  },
+  {
+    "name": "Samsung Galaxy Ace 3 LTE",
+    "architecture": "armeabi-v7a",
+    "block_devs": {
+      "system": [
+        "/dev/block/platform/msm_sdcc.1/by-name/system",
+        "/dev/block/mmcblk0p20"
+      ],
+      "base_dirs": [
+        "/dev/block/platform/msm_sdcc.1/by-name"
+      ],
+      "cache": [
+        "/dev/block/platform/msm_sdcc.1/by-name/cache",
+        "/dev/block/mmcblk0p21"
+      ],
+      "recovery": [
+        "/dev/block/platform/msm_sdcc.1/by-name/recovery",
+        "/dev/block/mmcblk0p14"
+      ],
+      "boot": [
+        "/dev/block/platform/msm_sdcc.1/by-name/boot",
+        "/dev/block/mmcblk0p13"
+      ],
+      "data": [
+        "/dev/block/platform/msm_sdcc.1/by-name/userdata",
+        "/dev/block/mmcblk0p23"
+      ]
+    },
+    "id": "loganre",
+    "codenames": [
+      "loganre",
+      "loganrelte",
+      "loganreltexx"
+    ]
+  },
+  {
+    "id": "vivalto3g",
+    "codenames": [
+      "vivalto3g",
+      "vivalto3gvn",
+      "vivalto3gub"
+    ],
+    "block_devs": {
+      "cache": [
+        "/dev/block/mmcblk0p17"
+      ],
+      "system": [
+        "/dev/block/mmcblk0p18"
+      ],
+      "recovery": [
+        "/dev/block/mmcblk0p12"
+      ],
+      "data": [
+        "/dev/block/mmcblk0p20"
+      ],
+      "boot": [
+        "/dev/block/mmcblk0p11"
+      ]
+    },
+    "name": "Samsung Galaxy V (Ace 4 Lite)",
+    "architecture": "armeabi-v7a"
+  },
+  {
+    "codenames": [
+      "melius",
+      "meliuslte",
+      "meliusltexx"
+    ],
+    "block_devs": {
+      "system": [
+        "/dev/block/platform/msm_sdcc.1/by-name/system",
+        "/dev/block/mmcblk0p20"
+      ],
+      "data": [
+        "/dev/block/platform/msm_sdcc.1/by-name/userdata",
+        "/dev/block/mmcblk0p23"
+      ],
+      "cache": [
+        "/dev/block/platform/msm_sdcc.1/by-name/cache",
+        "/dev/block/mmcblk0p21"
+      ],
+      "boot": [
+        "/dev/block/platform/msm_sdcc.1/by-name/boot",
+        "/dev/block/mmcblk0p13"
+      ],
+      "recovery": [
+        "/dev/block/platform/msm_sdcc.1/by-name/recovery",
+        "/dev/block/mmcblk0p14"
+      ],
+      "base_dirs": [
+        "/dev/block/platform/msm_sdcc.1/by-name"
+      ]
+    },
+    "id": "melius_intl",
+    "architecture": "armeabi-v7a",
+    "name": "Samsung Galaxy Mega 6.3 (Intl)"
+  },
+  {
+    "codenames": [
+      "melius",
+      "meliuslte",
+      "meliusltecan"
+    ],
+    "block_devs": {
+      "system": [
+        "/dev/block/platform/msm_sdcc.1/by-name/system",
+        "/dev/block/mmcblk0p21"
+      ],
+      "base_dirs": [
+        "/dev/block/platform/msm_sdcc.1/by-name"
+      ],
+      "boot": [
+        "/dev/block/platform/msm_sdcc.1/by-name/boot",
+        "/dev/block/mmcblk0p13"
+      ],
+      "data": [
+        "/dev/block/platform/msm_sdcc.1/by-name/userdata",
+        "/dev/block/mmcblk0p24"
+      ],
+      "recovery": [
+        "/dev/block/platform/msm_sdcc.1/by-name/recovery",
+        "/dev/block/mmcblk0p14"
+      ],
+      "cache": [
+        "/dev/block/platform/msm_sdcc.1/by-name/cache",
+        "/dev/block/mmcblk0p22"
+      ]
+    },
+    "id": "melius_can",
+    "architecture": "armeabi-v7a",
+    "name": "Samsung Galaxy Mega 6.3 (Canada)"
+  },
+  {
+    "block_devs": {
+      "cache": [
+        "/dev/block/platform/omap/omap_hsmmc.1/by-name/CACHE",
+        "/dev/block/mmcblk0p7"
+      ],
+      "recovery": [
+        "/dev/block/platform/omap/omap_hsmmc.1/by-name/RECOVERY",
+        "/dev/block/mmcblk0p6"
+      ],
+      "base_dirs": [
+        "/dev/block/platform/omap/omap_hsmmc.1/by-name"
+      ],
+      "boot": [
+        "/dev/block/platform/omap/omap_hsmmc.1/by-name/KERNEL",
+        "/dev/block/mmcblk0p5"
+      ],
+      "system": [
+        "/dev/block/platform/omap/omap_hsmmc.1/by-name/FACTORYFS",
+        "/dev/block/mmcblk0p9"
+      ],
+      "data": [
+        "/dev/block/platform/omap/omap_hsmmc.1/by-name/DATAFS",
+        "/dev/block/mmcblk0p10"
+      ]
+    },
+    "codenames": [
+      "espressowifi",
+      "espressowifixx",
+      "espressorf",
+      "espressorfxx",
+      "espresso10wifi",
+      "espresso10wifixx",
+      "espresso10rf",
+      "espresso10rfxx",
+      "espresso3g"
+    ],
+    "id": "espresso10",
+    "architecture": "armeabi-v7a",
+    "name": "Samsung Galaxy Tab 2 7.0/10.1 (Wifi/3G)"
+  },
+  {
+    "codenames": [
+      "lt01wifi",
+      "lt01wifixx"
+    ],
+    "architecture": "armeabi-v7a",
+    "id": "lt01wifi",
+    "name": "Samsung Galaxy Tab 3 8.0 (Wifi)",
+    "block_devs": {
+      "cache": [
+        "/dev/block/platform/dw_mmc/by-name/CACHE",
+        "/dev/block/mmcblk0p19"
+      ],
+      "data": [
+        "/dev/block/platform/dw_mmc/by-name/USERDATA",
+        "/dev/block/mmcblk0p21"
+      ],
+      "boot": [
+        "/dev/block/platform/dw_mmc/by-name/BOOT",
+        "/dev/block/mmcblk0p9"
+      ],
+      "system": [
+        "/dev/block/platform/dw_mmc/by-name/SYSTEM",
+        "/dev/block/mmcblk0p20"
+      ],
+      "base_dirs": [
+        "/dev/block/platform/dw_mmc/by-name"
+      ],
+      "recovery": [
+        "/dev/block/platform/dw_mmc/by-name/RECOVERY",
+        "/dev/block/mmcblk0p10"
+      ]
+    }
+  },
+  {
+    "codenames": [
+      "santos103g",
+      "santos103gxx",
+      "santos10lte",
+      "santos10ltexx",
+      "santos10wifi",
+      "santos10wifixx"
+    ],
+    "id": "santos",
+    "name": "Samsung Galaxy Tab 3 10.1",
+    "architecture": "x86",
+    "block_devs": {
+      "cache": [
+        "/dev/block/pci/pci0000:00/0000:00:01.0/by-name/CACHE",
+        "/dev/block/mmcblk0p6"
+      ],
+      "system": [
+        "/dev/block/pci/pci0000:00/0000:00:01.0/by-name/SYSTEM",
+        "/dev/block/mmcblk0p8"
+      ],
+      "recovery": [
+        "/dev/block/pci/pci0000:00/0000:00:01.0/by-name/RECOVERY",
+        "/dev/block/mmcblk0p11"
+      ],
+      "extra": [
+        "/dev/block/pci/pci0000:00/0000:00:01.0/by-name/RADIO"
+      ],
+      "base_dirs": [
+        "/dev/block/pci/pci0000:00/0000:00:01.0/by-name"
+      ],
+      "boot": [
+        "/dev/block/pci/pci0000:00/0000:00:01.0/by-name/BOOT",
+        "/dev/block/mmcblk0p10"
+      ],
+      "data": [
+        "/dev/block/pci/pci0000:00/0000:00:01.0/by-name/USERDATA",
+        "/dev/block/mmcblk0p9"
+      ]
+    }
+  },
+  {
+    "id": "matissewifi",
+    "name": "Samsung Galaxy Tab 4 10.1 (Wifi)",
+    "architecture": "armeabi-v7a",
+    "block_devs": {
+      "recovery": [
+        "/dev/block/platform/msm_sdcc.1/by-name/recovery",
+        "/dev/block/mmcblk0p15"
+      ],
+      "system": [
+        "/dev/block/platform/msm_sdcc.1/by-name/system",
+        "/dev/block/mmcblk0p23"
+      ],
+      "base_dirs": [
+        "/dev/block/platform/msm_sdcc.1/by-name"
+      ],
+      "data": [
+        "/dev/block/platform/msm_sdcc.1/by-name/userdata",
+        "/dev/block/mmcblk0p26"
+      ],
+      "boot": [
+        "/dev/block/platform/msm_sdcc.1/by-name/boot",
+        "/dev/block/mmcblk0p14"
+      ],
+      "cache": [
+        "/dev/block/platform/msm_sdcc.1/by-name/cache",
+        "/dev/block/mmcblk0p24"
+      ]
+    },
+    "codenames": [
+      "matissewifi",
+      "SM-T530"
+    ]
+  },
+  {
+    "block_devs": {
+      "recovery": [
+        "/dev/block/platform/msm_sdcc.1/by-name/recovery",
+        "/dev/block/mmcblk0p15"
+      ],
+      "boot": [
+        "/dev/block/platform/msm_sdcc.1/by-name/boot",
+        "/dev/block/mmcblk0p14"
+      ],
+      "system": [
+        "/dev/block/platform/msm_sdcc.1/by-name/system",
+        "/dev/block/mmcblk0p23"
+      ],
+      "base_dirs": [
+        "/dev/block/platform/msm_sdcc.1/by-name"
+      ],
+      "cache": [
+        "/dev/block/platform/msm_sdcc.1/by-name/cache",
+        "/dev/block/mmcblk0p24"
+      ],
+      "data": [
+        "/dev/block/platform/msm_sdcc.1/by-name/userdata",
+        "/dev/block/mmcblk0p26"
+      ]
+    },
+    "id": "mondrianwifi",
+    "name": "Samsung Galaxy Tab Pro 8.4 (Wifi)",
+    "architecture": "armeabi-v7a",
+    "codenames": [
+      "mondrianwifi",
+      "mondrianwifiue",
+      "mondrianwifixx"
+    ]
+  },
+  {
+    "name": "Samsung Galaxy Tab Pro 10.1 (Wifi)",
+    "codenames": [
+      "picassowifi",
+      "picassowifixx"
+    ],
+    "block_devs": {
+      "base_dirs": [
+        "/dev/block/platform/dw_mmc.0/by-name"
+      ],
+      "system": [
+        "/dev/block/platform/dw_mmc.0/by-name/SYSTEM",
+        "/dev/block/mmcblk0p18"
+      ],
+      "data": [
+        "/dev/block/platform/dw_mmc.0/by-name/USERDATA",
+        "/dev/block/mmcblk0p21"
+      ],
+      "cache": [
+        "/dev/block/platform/dw_mmc.0/by-name/CACHE",
+        "/dev/block/mmcblk0p19"
+      ],
+      "extra": [
+        "/dev/block/platform/dw_mmc.0/by-name/RADIO",
+        "/dev/block/platform/dw_mmc.0/by-name/CDMA-RADIO"
+      ],
+      "recovery": [
+        "/dev/block/platform/dw_mmc.0/by-name/RECOVERY",
+        "/dev/block/mmcblk0p10"
+      ],
+      "boot": [
+        "/dev/block/platform/dw_mmc.0/by-name/BOOT",
+        "/dev/block/mmcblk0p9"
+      ]
+    },
+    "architecture": "armeabi-v7a",
+    "id": "picassowifi"
+  },
+  {
+    "architecture": "armeabi-v7a",
+    "codenames": [
+      "picassolte",
+      "picassoltexx"
+    ],
+    "name": "Samsung Galaxy Tab Pro 10.1 (LTE)",
+    "id": "picassolte",
+    "block_devs": {
+      "cache": [
+        "/dev/block/platform/msm_sdcc.1/by-name/cache",
+        "/dev/block/mmcblk0p24"
+      ],
+      "boot": [
+        "/dev/block/platform/msm_sdcc.1/by-name/boot",
+        "/dev/block/mmcblk0p14"
+      ],
+      "base_dirs": [
+        "/dev/block/platform/msm_sdcc.1/by-name"
+      ],
+      "recovery": [
+        "/dev/block/platform/msm_sdcc.1/by-name/recovery",
+        "/dev/block/mmcblk0p15"
+      ],
+      "system": [
+        "/dev/block/platform/msm_sdcc.1/by-name/system",
+        "/dev/block/mmcblk0p23"
+      ],
+      "data": [
+        "/dev/block/platform/msm_sdcc.1/by-name/userdata",
+        "/dev/block/mmcblk0p26"
+      ]
+    }
+  },
+  {
+    "block_devs": {
+      "system": [
+        "/dev/block/platform/dw_mmc.0/by-name/SYSTEM",
+        "/dev/block/mmcblk0p18"
+      ],
+      "cache": [
+        "/dev/block/platform/dw_mmc.0/by-name/CACHE",
+        "/dev/block/mmcblk0p19"
+      ],
+      "base_dirs": [
+        "/dev/block/platform/dw_mmc.0/by-name"
+      ],
+      "data": [
+        "/dev/block/platform/dw_mmc.0/by-name/USERDATA",
+        "/dev/block/mmcblk0p21"
+      ],
+      "boot": [
+        "/dev/block/platform/dw_mmc.0/by-name/BOOT",
+        "/dev/block/mmcblk0p9"
+      ],
+      "recovery": [
+        "/dev/block/platform/dw_mmc.0/by-name/RECOVERY",
+        "/dev/block/mmcblk0p10"
+      ]
+    },
+    "architecture": "armeabi-v7a",
+    "name": "Samsung Galaxy Tab Pro 12.2 (Wifi)",
+    "codenames": [
+      "v2awifi",
+      "v2wifi",
+      "v2wifiue",
+      "v2wifixx"
+    ],
+    "id": "v2wifi"
+  },
+  {
+    "block_devs": {
+      "base_dirs": [
+        "/dev/block/platform/dw_mmc.0/by-name"
+      ],
+      "extra": [
+        "/dev/block/platform/dw_mmc.0/by-name/RADIO",
+        "/dev/block/platform/dw_mmc.0/by-name/CDMA-RADIO"
+      ],
+      "boot": [
+        "/dev/block/platform/dw_mmc.0/by-name/BOOT",
+        "/dev/block/mmcblk0p9"
+      ],
+      "cache": [
+        "/dev/block/platform/dw_mmc.0/by-name/CACHE",
+        "/dev/block/mmcblk0p19"
+      ],
+      "recovery": [
+        "/dev/block/platform/dw_mmc.0/by-name/RECOVERY",
+        "/dev/block/mmcblk0p10"
+      ],
+      "data": [
+        "/dev/block/platform/dw_mmc.0/by-name/USERDATA",
+        "/dev/block/mmcblk0p21"
+      ],
+      "system": [
+        "/dev/block/platform/dw_mmc.0/by-name/SYSTEM",
+        "/dev/block/mmcblk0p18"
+      ]
+    },
+    "name": "Samsung Galaxy Tab S 8.4/10.5",
+    "architecture": "armeabi-v7a",
+    "codenames": [
+      "klimtwifi",
+      "klimtwifikx",
+      "klimtlte",
+      "klimtltexx",
+      "chagallwifi",
+      "chagallwifixx",
+      "chagalllte",
+      "chagallltexx"
+    ],
+    "id": "tab_s"
+  },
+  {
+    "architecture": "armeabi-v7a",
+    "codenames": [
+      "gts28wifi",
+      "gts28wifixx",
+      "gts28lte",
+      "gts28ltexx",
+      "gts210wifi",
+      "gts210wifixx",
+      "gts210lte",
+      "gts210ltexx"
+    ],
+    "block_devs": {
+      "recovery": [
+        "/dev/block/platform/15540000.dwmmc0/by-name/RECOVERY",
+        "/dev/block/mmcblk0p10"
+      ],
+      "boot": [
+        "/dev/block/platform/15540000.dwmmc0/by-name/BOOT",
+        "/dev/block/mmcblk0p9"
+      ],
+      "extra": [
+        "/dev/block/platform/15540000.dwmmc0/by-name/RADIO",
+        "/dev/block/platform/15540000.dwmmc0/by-name/CDMA-RADIO"
+      ],
+      "data": [
+        "/dev/block/platform/15540000.dwmmc0/by-name/USERDATA",
+        "/dev/block/mmcblk0p22"
+      ],
+      "system": [
+        "/dev/block/platform/15540000.dwmmc0/by-name/SYSTEM",
+        "/dev/block/mmcblk0p19"
+      ],
+      "base_dirs": [
+        "/dev/block/platform/15540000.dwmmc0/by-name"
+      ],
+      "cache": [
+        "/dev/block/platform/15540000.dwmmc0/by-name/CACHE",
+        "/dev/block/mmcblk0p20"
+      ]
+    },
+    "name": "Samsung Galaxy Tab S2 8.0/9.7",
+    "id": "tab_s2"
+  },
+  {
+    "name": "Samsung Galaxy Note 8.0 (Wifi/3G)",
+    "architecture": "armeabi-v7a",
+    "id": "kona",
+    "block_devs": {
+      "system": [
+        "/dev/block/platform/dw_mmc/by-name/SYSTEM",
+        "/dev/block/mmcblk0p9"
+      ],
+      "recovery": [
+        "/dev/block/platform/dw_mmc/by-name/RECOVERY",
+        "/dev/block/mmcblk0p6"
+      ],
+      "base_dirs": [
+        "/dev/block/platform/dw_mmc/by-name"
+      ],
+      "cache": [
+        "/dev/block/platform/dw_mmc/by-name/CACHE",
+        "/dev/block/mmcblk0p8"
+      ],
+      "extra": [
+        "/dev/block/platform/dw_mmc/by-name/RADIO",
+        "/dev/block/mmcblk0p7"
+      ],
+      "data": [
+        "/dev/block/platform/dw_mmc/by-name/USERDATA",
+        "/dev/block/mmcblk0p12"
+      ],
+      "boot": [
+        "/dev/block/platform/dw_mmc/by-name/BOOT",
+        "/dev/block/mmcblk0p5"
+      ]
+    },
+    "codenames": [
+      "konawifi",
+      "konawifixx",
+      "kona3g",
+      "kona3gxx"
+    ]
+  },
+  {
+    "codenames": [
+      "p4noterf",
+      "p4noterfxx"
+    ],
+    "name": "Samsung Galaxy Note 10.1",
+    "block_devs": {
+      "system": [
+        "/dev/block/platform/dw_mmc/by-name/SYSTEM",
+        "/dev/block/mmcblk0p9"
+      ],
+      "recovery": [
+        "/dev/block/platform/dw_mmc/by-name/RECOVERY",
+        "/dev/block/mmcblk0p6"
+      ],
+      "data": [
+        "/dev/block/platform/dw_mmc/by-name/USERDATA",
+        "/dev/block/mmcblk0p12"
+      ],
+      "cache": [
+        "/dev/block/platform/dw_mmc/by-name/CACHE",
+        "/dev/block/mmcblk0p8"
+      ],
+      "extra": [
+        "/dev/block/platform/dw_mmc/by-name/RADIO"
+      ],
+      "boot": [
+        "/dev/block/platform/dw_mmc/by-name/BOOT",
+        "/dev/block/mmcblk0p5"
+      ],
+      "base_dirs": [
+        "/dev/block/platform/dw_mmc/by-name"
+      ]
+    },
+    "architecture": "armeabi-v7a",
+    "id": "p4noterf"
+  },
+  {
+    "codenames": [
+      "lt03wifi",
+      "lt03wifiue"
+    ],
+    "block_devs": {
+      "data": [
+        "/dev/block/platform/dw_mmc.0/by-name/USERDATA",
+        "/dev/block/mmcblk0p21"
+      ],
+      "extra": [
+        "/dev/block/platform/dw_mmc.0/by-name/RADIO",
+        "/dev/block/platform/dw_mmc.0/by-name/CDMA-RADIO"
+      ],
+      "boot": [
+        "/dev/block/platform/dw_mmc.0/by-name/BOOT",
+        "/dev/block/mmcblk0p9"
+      ],
+      "base_dirs": [
+        "/dev/block/platform/dw_mmc.0/by-name"
+      ],
+      "system": [
+        "/dev/block/platform/dw_mmc.0/by-name/SYSTEM",
+        "/dev/block/mmcblk0p20"
+      ],
+      "recovery": [
+        "/dev/block/platform/dw_mmc.0/by-name/RECOVERY",
+        "/dev/block/mmcblk0p10"
+      ],
+      "cache": [
+        "/dev/block/platform/dw_mmc.0/by-name/CACHE",
+        "/dev/block/mmcblk0p19"
+      ]
+    },
+    "name": "Samsung Galaxy Note 10.1 Wifi (2014 Edition)",
+    "architecture": "armeabi-v7a",
+    "id": "lt03wifi"
+  },
+  {
+    "id": "lt033g",
+    "codenames": [
+      "lt033g",
+      "lt033gxx"
+    ],
+    "block_devs": {
+      "base_dirs": [
+        "/dev/block/platform/dw_mmc.0/by-name"
+      ],
+      "cache": [
+        "/dev/block/platform/dw_mmc.0/by-name/CACHE",
+        "/dev/block/mmcblk0p19"
+      ],
+      "extra": [
+        "/dev/block/platform/dw_mmc.0/by-name/RADIO",
+        "/dev/block/platform/dw_mmc.0/by-name/CDMA-RADIO"
+      ],
+      "recovery": [
+        "/dev/block/platform/dw_mmc.0/by-name/RECOVERY",
+        "/dev/block/mmcblk0p10"
+      ],
+      "boot": [
+        "/dev/block/platform/dw_mmc.0/by-name/BOOT",
+        "/dev/block/mmcblk0p9"
+      ],
+      "system": [
+        "/dev/block/platform/dw_mmc.0/by-name/SYSTEM",
+        "/dev/block/mmcblk0p20"
+      ],
+      "data": [
+        "/dev/block/platform/dw_mmc.0/by-name/USERDATA",
+        "/dev/block/mmcblk0p21"
+      ]
+    },
+    "name": "Samsung Galaxy Note 10.1 3G (2014 Edition)",
+    "architecture": "armeabi-v7a"
+  },
+  {
+    "block_devs": {
+      "data": [
+        "/dev/block/platform/msm_sdcc.1/by-name/userdata",
+        "/dev/block/mmcblk0p26"
+      ],
+      "system": [
+        "/dev/block/platform/msm_sdcc.1/by-name/system",
+        "/dev/block/mmcblk0p23"
+      ],
+      "base_dirs": [
+        "/dev/block/platform/msm_sdcc.1/by-name"
+      ],
+      "boot": [
+        "/dev/block/platform/msm_sdcc.1/by-name/boot",
+        "/dev/block/mmcblk0p14"
+      ],
+      "recovery": [
+        "/dev/block/platform/msm_sdcc.1/by-name/recovery",
+        "/dev/block/mmcblk0p15"
+      ],
+      "cache": [
+        "/dev/block/platform/msm_sdcc.1/by-name/cache",
+        "/dev/block/mmcblk0p24"
+      ]
+    },
+    "name": "Samsung Galaxy Note 10.1 LTE (2014 Edition)",
+    "codenames": [
+      "lt03lte",
+      "lt03ltexx"
+    ],
+    "id": "lt03lte",
+    "architecture": "armeabi-v7a"
+  },
+  {
+    "architecture": "armeabi-v7a",
+    "block_devs": {
+      "data": [
+        "/dev/block/platform/msm_sdcc.1/by-name/userdata",
+        "/dev/block/mmcblk0p25"
+      ],
+      "cache": [
+        "/dev/block/platform/msm_sdcc.1/by-name/cache",
+        "/dev/block/mmcblk0p23"
+      ],
+      "system": [
+        "/dev/block/platform/msm_sdcc.1/by-name/system",
+        "/dev/block/mmcblk0p22"
+      ],
+      "recovery": [
+        "/dev/block/platform/msm_sdcc.1/by-name/recovery",
+        "/dev/block/mmcblk0p15"
+      ],
+      "base_dirs": [
+        "/dev/block/platform/msm_sdcc.1/by-name"
+      ],
+      "boot": [
+        "/dev/block/platform/msm_sdcc.1/by-name/boot",
+        "/dev/block/mmcblk0p14"
+      ]
+    },
+    "id": "ms013g",
+    "codenames": [
+      "ms013g",
+      "ms01lte"
+    ],
+    "name": "Samsung Galaxy Grand 2 (Qcom)"
+  },
+  {
+    "codenames": [
+      "mint",
+      "mint2g"
+    ],
+    "id": "mint",
+    "block_devs": {
+      "data": [
+        "/dev/block/mmcblk0p25"
+      ],
+      "system": [
+        "/dev/block/mmcblk0p21"
+      ],
+      "cache": [
+        "/dev/block/mmcblk0p20"
+      ],
+      "recovery": [
+        "/dev/block/mmcblk0p6"
+      ],
+      "boot": [
+        "/dev/block/mmcblk0p5"
+      ]
+    },
+    "architecture": "armeabi-v7a",
+    "name": "Samsung Galaxy Star"
+  },
+  {
+    "id": "slte",
+    "block_devs": {
+      "extra": [
+        "/dev/block/platform/15540000.dwmmc0/by-name/RADIO",
+        "/dev/block/platform/15540000.dwmmc0/by-name/CDMA-RADIO"
+      ],
+      "base_dirs": [
+        "/dev/block/platform/15540000.dwmmc0/by-name"
+      ],
+      "boot": [
+        "/dev/block/platform/15540000.dwmmc0/by-name/BOOT",
+        "/dev/block/mmcblk0p9"
+      ],
+      "recovery": [
+        "/dev/block/platform/15540000.dwmmc0/by-name/RECOVERY",
+        "/dev/block/mmcblk0p10"
+      ],
+      "system": [
+        "/dev/block/platform/15540000.dwmmc0/by-name/SYSTEM",
+        "/dev/block/mmcblk0p18"
+      ],
+      "cache": [
+        "/dev/block/platform/15540000.dwmmc0/by-name/CACHE",
+        "/dev/block/mmcblk0p19"
+      ],
+      "data": [
+        "/dev/block/platform/15540000.dwmmc0/by-name/USERDATA",
+        "/dev/block/mmcblk0p21"
+      ]
+    },
+    "architecture": "armeabi-v7a",
+    "name": "Samsung Galaxy Alpha (Exynos)",
+    "codenames": [
+      "slte",
+      "sltexx",
+      "slteskt",
+      "sltektt",
+      "sltelgu"
+    ]
+  },
+  {
+    "id": "pepper",
+    "architecture": "armeabi-v7a",
+    "flags": [
+      "HAS_COMBINED_BOOT_AND_RECOVERY"
+    ],
+    "codenames": [
+      "pepper",
+      "MT27a",
+      "MT27i"
+    ],
+    "block_devs": {
+      "system": [
+        "/dev/block/mmcblk0p10"
+      ],
+      "cache": [
+        "/dev/block/mmcblk0p12"
+      ],
+      "boot": [
+        "/dev/block/mmcblk0p9"
+      ],
+      "data": [
+        "/dev/block/mmcblk0p11"
+      ]
+    },
+    "name": "Sony Xperia Sola"
+  },
+  {
+    "id": "falconss",
+    "block_devs": {
+      "base_dirs": [
+        "/dev/block/platform/msm_sdcc.1/by-name",
+        "/dev/block/bootdevice/by-name"
+      ],
+      "boot": [
+        "/dev/block/platform/msm_sdcc.1/by-name/boot",
+        "/dev/block/bootdevice/by-name/boot",
+        "/dev/block/mmcblk0p15"
+      ],
+      "system": [
+        "/dev/block/platform/msm_sdcc.1/by-name/system",
+        "/dev/block/bootdevice/by-name/system",
+        "/dev/block/mmcblk0p19"
+      ],
+      "cache": [
+        "/dev/block/platform/msm_sdcc.1/by-name/cache",
+        "/dev/block/bootdevice/by-name/cache",
+        "/dev/block/mmcblk0p20"
+      ],
+      "data": [
+        "/dev/block/platform/msm_sdcc.1/by-name/userdata",
+        "/dev/block/bootdevice/by-name/userdata",
+        "/dev/block/mmcblk0p21"
+      ],
+      "recovery": [
+        "/dev/block/platform/msm_sdcc.1/by-name/FOTAKernel",
+        "/dev/block/bootdevice/by-name/FOTAKernel",
+        "/dev/block/mmcblk0p16"
+      ]
+    },
+    "name": "Sony Xperia E1",
+    "architecture": "armeabi-v7a",
+    "flags": [
+      "HAS_COMBINED_BOOT_AND_RECOVERY"
+    ],
+    "codenames": [
+      "falconss",
+      "D2004",
+      "D2005",
+      "D2104",
+      "D2105",
+      "D2114"
+    ],
+    "boot_ui": {
+      "theme": "portrait_hdpi",
+      "graphics_backends": [
+        "fbdev"
+      ],
+      "flags": [
+        "TW_GRAPHICS_FORCE_USE_LINELENGTH"
+      ],
+      "supported": true,
+      "pixel_format": "RGBX_8888"
+    }
+  },
+  {
+    "codenames": [
+      "honami",
+      "C6903",
+      "C6902",
+      "C6906",
+      "C6943"
+    ],
+    "flags": [
+      "HAS_COMBINED_BOOT_AND_RECOVERY"
+    ],
+    "boot_ui": {
+      "flags": [
+        "TW_GRAPHICS_FORCE_USE_LINELENGTH"
+      ],
+      "supported": true,
+      "theme": "portrait_hdpi",
+      "pixel_format": "RGBX_8888",
+      "graphics_backends": [
+        "fbdev"
+      ]
+    },
+    "name": "Sony Xperia Z1",
+    "architecture": "armeabi-v7a",
+    "id": "honami",
+    "block_devs": {
+      "system": [
+        "/dev/block/platform/msm_sdcc.1/by-name/system",
+        "/dev/block/bootdevice/by-name/system",
+        "/dev/block/mmcblk0p23"
+      ],
+      "cache": [
+        "/dev/block/platform/msm_sdcc.1/by-name/cache",
+        "/dev/block/bootdevice/by-name/cache",
+        "/dev/block/mmcblk0p24"
+      ],
+      "boot": [
+        "/dev/block/platform/msm_sdcc.1/by-name/boot",
+        "/dev/block/bootdevice/by-name/boot",
+        "/dev/block/mmcblk0p14"
+      ],
+      "recovery": [
+        "/dev/block/platform/msm_sdcc.1/by-name/FOTAKernel",
+        "/dev/block/bootdevice/by-name/FOTAKernel",
+        "/dev/block/mmcblk0p16"
+      ],
+      "extra": [
+        "/dev/block/platform/msm_sdcc.1/by-name/aboot",
+        "/dev/block/platform/msm_sdcc.1/by-name/rpm",
+        "/dev/block/platform/msm_sdcc.1/by-name/sbl1",
+        "/dev/block/platform/msm_sdcc.1/by-name/tz"
+      ],
+      "data": [
+        "/dev/block/platform/msm_sdcc.1/by-name/userdata",
+        "/dev/block/bootdevice/by-name/userdata",
+        "/dev/block/mmcblk0p25"
+      ],
+      "base_dirs": [
+        "/dev/block/platform/msm_sdcc.1/by-name",
+        "/dev/block/bootdevice/by-name"
+      ]
+    }
+  },
+  {
+    "block_devs": {
+      "base_dirs": [
+        "/dev/block/platform/msm_sdcc.1/by-name",
+        "/dev/block/bootdevice/by-name"
+      ],
+      "boot": [
+        "/dev/block/platform/msm_sdcc.1/by-name/boot",
+        "/dev/block/bootdevice/by-name/boot",
+        "/dev/block/mmcblk0p14"
+      ],
+      "system": [
+        "/dev/block/platform/msm_sdcc.1/by-name/system",
+        "/dev/block/bootdevice/by-name/system",
+        "/dev/block/mmcblk0p23"
+      ],
+      "data": [
+        "/dev/block/platform/msm_sdcc.1/by-name/userdata",
+        "/dev/block/bootdevice/by-name/userdata",
+        "/dev/block/mmcblk0p25"
+      ],
+      "recovery": [
+        "/dev/block/platform/msm_sdcc.1/by-name/FOTAKernel",
+        "/dev/block/bootdevice/by-name/FOTAKernel",
+        "/dev/block/mmcblk0p16"
+      ],
+      "cache": [
+        "/dev/block/platform/msm_sdcc.1/by-name/cache",
+        "/dev/block/bootdevice/by-name/cache",
+        "/dev/block/mmcblk0p24"
+      ]
+    },
+    "boot_ui": {
+      "graphics_backends": [
+        "fbdev"
+      ],
+      "supported": true,
+      "theme": "portrait_hdpi",
+      "flags": [
+        "TW_GRAPHICS_FORCE_USE_LINELENGTH"
+      ],
+      "pixel_format": "RGBX_8888"
+    },
+    "flags": [
+      "HAS_COMBINED_BOOT_AND_RECOVERY"
+    ],
+    "architecture": "armeabi-v7a",
+    "codenames": [
+      "tianchi",
+      "D5303",
+      "D5306",
+      "D5316",
+      "D5322",
+      "XM50h",
+      "XM50H",
+      "XM50t",
+      "XM50T"
+    ],
+    "id": "tianchi",
+    "name": "Sony Xperia T2 Ultra"
+  },
+  {
+    "name": "Sony Xperia SP",
+    "codenames": [
+      "huashan",
+      "C5303",
+      "C5302",
+      "C5306"
+    ],
+    "flags": [
+      "HAS_COMBINED_BOOT_AND_RECOVERY"
+    ],
+    "architecture": "armeabi-v7a",
+    "id": "huashan",
+    "block_devs": {
+      "extra": [
+        "/dev/block/platform/msm_sdcc.1/by-name/TA",
+        "/dev/block/platform/msm_sdcc.1/by-name/TZ"
+      ],
+      "base_dirs": [
+        "/dev/block/platform/msm_sdcc.1/by-name"
+      ],
+      "recovery": [
+        "/dev/block/platform/msm_sdcc.1/by-name/FOTAKernel",
+        "/dev/block/mmcblk0p11"
+      ],
+      "system": [
+        "/dev/block/platform/msm_sdcc.1/by-name/system",
+        "/dev/block/mmcblk0p13"
+      ],
+      "data": [
+        "/dev/block/platform/msm_sdcc.1/by-name/userdata",
+        "/dev/block/mmcblk0p15"
+      ],
+      "boot": [
+        "/dev/block/platform/msm_sdcc.1/by-name/boot",
+        "/dev/block/mmcblk0p2"
+      ],
+      "cache": [
+        "/dev/block/platform/msm_sdcc.1/by-name/cache",
+        "/dev/block/mmcblk0p14"
+      ]
+    }
+  },
+  {
+    "id": "crackling",
+    "architecture": "armeabi-v7a",
+    "block_devs": {
+      "data": [
+        "/dev/block/bootdevice/by-name/userdata",
+        "/dev/block/mmcblk0p31"
+      ],
+      "system": [
+        "/dev/block/bootdevice/by-name/system",
+        "/dev/block/mmcblk0p25"
+      ],
+      "cache": [
+        "/dev/block/bootdevice/by-name/cache",
+        "/dev/block/mmcblk0p29"
+      ],
+      "boot": [
+        "/dev/block/bootdevice/by-name/boot",
+        "/dev/block/mmcblk0p24"
+      ],
+      "base_dirs": [
+        "/dev/block/bootdevice/by-name"
+      ],
+      "recovery": [
+        "/dev/block/bootdevice/by-name/recovery",
+        "/dev/block/mmcblk0p26"
+      ]
+    },
+    "codenames": [
+      "crackling"
+    ],
+    "boot_ui": {
+      "supported": true,
+      "pixel_format": "RGBX_8888",
+      "max_brightness": 255,
+      "flags": [
+        "TW_QCOM_RTC_FIX"
+      ],
+      "default_brightness": 162,
+      "theme": "portrait_hdpi",
+      "brightness_path": "/sys/class/leds/lcd-backlight/brightness",
+      "graphics_backends": [
+        "fbdev"
+      ]
+    },
+    "name": "Wileyfox Swift"
+  },
+  {
+    "codenames": [
+      "kipper"
+    ],
+    "architecture": "armeabi-v7a",
+    "name": "Wileyfox Storm",
+    "block_devs": {
+      "boot": [
+        "/dev/block/bootdevice/by-name/boot",
+        "/dev/block/mmcblk0p20"
+      ],
+      "base_dirs": [
+        "/dev/block/bootdevice/by-name"
+      ],
+      "data": [
+        "/dev/block/bootdevice/by-name/userdata",
+        "/dev/block/mmcblk0p30"
+      ],
+      "cache": [
+        "/dev/block/bootdevice/by-name/cache",
+        "/dev/block/mmcblk0p23"
+      ],
+      "recovery": [
+        "/dev/block/bootdevice/by-name/recovery",
+        "/dev/block/mmcblk0p21"
+      ],
+      "system": [
+        "/dev/block/bootdevice/by-name/system",
+        "/dev/block/mmcblk0p22"
+      ]
+    },
+    "id": "kipper"
+  },
+  {
+    "codenames": [
+      "cancro"
+    ],
+    "boot_ui": {
+      "max_brightness": 255,
+      "graphics_backends": [
+        "fbdev"
+      ],
+      "supported": true,
+      "flags": [
+        "TW_QCOM_RTC_FIX"
+      ],
+      "brightness_path": "/sys/class/leds/lcd-backlight/brightness",
+      "pixel_format": "RGBX_8888",
+      "theme": "portrait_hdpi",
+      "default_brightness": 162
+    },
+    "block_devs": {
+      "base_dirs": [
+        "/dev/block/platform/msm_sdcc.1/by-name",
+        "/dev/block/bootdevice/by-name"
+      ],
+      "cache": [
+        "/dev/block/platform/msm_sdcc.1/by-name/cache",
+        "/dev/block/bootdevice/by-name/cache",
+        "/dev/block/mmcblk0p24"
+      ],
+      "system": [
+        "/dev/block/platform/msm_sdcc.1/by-name/system",
+        "/dev/block/bootdevice/by-name/system",
+        "/dev/block/mmcblk0p23"
+      ],
+      "data": [
+        "/dev/block/platform/msm_sdcc.1/by-name/userdata",
+        "/dev/block/bootdevice/by-name/userdata",
+        "/dev/block/mmcblk0p25"
+      ],
+      "boot": [
+        "/dev/block/platform/msm_sdcc.1/by-name/boot",
+        "/dev/block/bootdevice/by-name/boot",
+        "/dev/block/mmcblk0p19"
+      ],
+      "recovery": [
+        "/dev/block/platform/msm_sdcc.1/by-name/recovery",
+        "/dev/block/bootdevice/by-name/recovery",
+        "/dev/block/mmcblk0p20"
+      ]
+    },
+    "id": "cancro",
+    "name": "Xiaomi Mi3W",
+    "architecture": "armeabi-v7a"
+  },
+  {
+    "block_devs": {
+      "system": [
+        "/dev/block/platform/soc/624000.ufshc/by-name/system",
+        "/dev/block/bootdevice/by-name/system",
+        "/dev/block/sde39"
+      ],
+      "boot": [
+        "/dev/block/platform/soc/624000.ufshc/by-name/boot",
+        "/dev/block/bootdevice/by-name/boot",
+        "/dev/block/sde36"
+      ],
+      "recovery": [
+        "/dev/block/platform/soc/624000.ufshc/by-name/recovery",
+        "/dev/block/bootdevice/by-name/recovery",
+        "/dev/block/sde37"
+      ],
+      "data": [
+        "/dev/block/platform/soc/624000.ufshc/by-name/userdata",
+        "/dev/block/bootdevice/by-name/userdata",
+        "/dev/block/sda14"
+      ],
+      "cache": [
+        "/dev/block/platform/soc/624000.ufshc/by-name/cache",
+        "/dev/block/bootdevice/by-name/cache",
+        "/dev/block/sda13"
+      ],
+      "base_dirs": [
+        "/dev/block/platform/soc/624000.ufshc/by-name",
+        "/dev/block/bootdevice/by-name"
+      ]
+    },
+    "name": "Xiaomi MI 5",
+    "architecture": "arm64-v8a",
+    "codenames": [
+      "gemini"
+    ],
+    "id": "gemini"
+  },
+  {
+    "name": "Xiaomi HM 1S",
+    "codenames": [
+      "armani"
+    ],
+    "id": "armani",
+    "block_devs": {
+      "cache": [
+        "/dev/block/platform/msm_sdcc.1/by-name/cache",
+        "/dev/block/mmcblk0p28"
+      ],
+      "boot": [
+        "/dev/block/platform/msm_sdcc.1/by-name/boot",
+        "/dev/block/mmcblk0p24"
+      ],
+      "data": [
+        "/dev/block/platform/msm_sdcc.1/by-name/userdata",
+        "/dev/block/mmcblk0p29"
+      ],
+      "system": [
+        "/dev/block/platform/msm_sdcc.1/by-name/system",
+        "/dev/block/mmcblk0p27"
+      ],
+      "recovery": [
+        "/dev/block/platform/msm_sdcc.1/by-name/recovery",
+        "/dev/block/mmcblk0p25"
+      ],
+      "base_dirs": [
+        "/dev/block/platform/msm_sdcc.1/by-name"
+      ]
+    },
+    "architecture": "armeabi-v7a"
+  },
+  {
+    "codenames": [
+      "hermes"
+    ],
+    "architecture": "arm64-v8a",
+    "name": "Xiaomi Redmi Note 2",
+    "id": "hermes",
+    "block_devs": {
+      "base_dirs": [
+        "/dev/block/bootdevice/by-name",
+        "/dev/block/platform/mtk-msdc.0/by-name"
+      ],
+      "system": [
+        "/dev/block/bootdevice/by-name/system",
+        "/dev/block/platform/mtk-msdc.0/by-name/system",
+        "/dev/block/mmcblk0p15"
+      ],
+      "data": [
+        "/dev/block/bootdevice/by-name/userdata",
+        "/dev/block/platform/mtk-msdc.0/by-name/userdata",
+        "/dev/block/mmcblk0p17"
+      ],
+      "cache": [
+        "/dev/block/bootdevice/by-name/cache",
+        "/dev/block/platform/mtk-msdc.0/by-name/cache",
+        "/dev/block/mmcblk0p16"
+      ],
+      "extra": [
+        "/dev/block/platform/mtk-msdc.0/by-name/lk",
+        "/dev/block/mmcblk0p6",
+        "/dev/block/platform/mtk-msdc.0/by-name/logo",
+        "/dev/block/mmcblk0p11",
+        "/dev/block/mmcblk0boot0"
+      ],
+      "recovery": [
+        "/dev/block/bootdevice/by-name/recovery",
+        "/dev/block/platform/mtk-msdc.0/by-name/recovery",
+        "/dev/block/mmcblk0p8"
+      ],
+      "boot": [
+        "/dev/block/bootdevice/by-name/boot",
+        "/dev/block/platform/mtk-msdc.0/by-name/boot",
+        "/dev/block/mmcblk0p7"
+      ]
+    }
+  },
+  {
+    "block_devs": {
+      "cache": [
+        "/dev/block/platform/mtk-msdc.0/by-name/cache",
+        "/dev/block/mmcblk0p16"
+      ],
+      "system": [
+        "/dev/block/platform/mtk-msdc.0/by-name/system",
+        "/dev/block/mmcblk0p15"
+      ],
+      "base_dirs": [
+        "/dev/block/platform/mtk-msdc.0/by-name"
+      ],
+      "recovery": [
+        "/dev/block/platform/mtk-msdc.0/by-name/recovery",
+        "/dev/block/mmcblk0p8"
+      ],
+      "data": [
+        "/dev/block/platform/mtk-msdc.0/by-name/userdata",
+        "/dev/block/mmcblk0p17"
+      ],
+      "extra": [
+        "/dev/block/platform/mtk-msdc.0/by-name/para",
+        "/dev/block/mmcblk0p10",
+        "/dev/block/mmcblk0boot0"
+      ],
+      "boot": [
+        "/dev/block/platform/mtk-msdc.0/by-name/boot",
+        "/dev/block/mmcblk0p7"
+      ]
+    },
+    "architecture": "arm64-v8a",
+    "codenames": [
+      "hennessy"
+    ],
+    "name": "Xiaomi Redmi Note 3 (MTK)",
+    "id": "hennessy"
+  },
+  {
+    "id": "kenzo",
+    "name": "Xiaomi Redmi Note 3 Pro",
+    "block_devs": {
+      "data": [
+        "/dev/block/platform/7824900.sdhci/by-name/userdata",
+        "/dev/block/bootdevice/by-name/userdata",
+        "/dev/block/mmcblk0p46"
+      ],
+      "boot": [
+        "/dev/block/platform/7824900.sdhci/by-name/boot",
+        "/dev/block/bootdevice/by-name/boot",
+        "/dev/block/mmcblk0p21"
+      ],
+      "system": [
+        "/dev/block/platform/7824900.sdhci/by-name/system",
+        "/dev/block/bootdevice/by-name/system",
+        "/dev/block/mmcblk0p24"
+      ],
+      "recovery": [
+        "/dev/block/platform/7824900.sdhci/by-name/recovery",
+        "/dev/block/bootdevice/by-name/recovery",
+        "/dev/block/mmcblk0p22"
+      ],
+      "base_dirs": [
+        "/dev/block/platform/7824900.sdhci/by-name",
+        "/dev/block/bootdevice/by-name"
+      ],
+      "cache": [
+        "/dev/block/platform/7824900.sdhci/by-name/cache",
+        "/dev/block/bootdevice/by-name/cache",
+        "/dev/block/mmcblk0p25"
+      ]
+    },
+    "architecture": "arm64-v8a",
+    "codenames": [
+      "kenzo"
+    ]
+  },
+  {
+    "codenames": [
+      "gucci"
+    ],
+    "name": "Xiaomi Redmi Note 4G DS",
+    "block_devs": {
+      "system": [
+        "/dev/block/bootdevice/by-name/system",
+        "/dev/block/mmcblk0p26"
+      ],
+      "base_dirs": [
+        "/dev/block/bootdevice/by-name"
+      ],
+      "cache": [
+        "/dev/block/bootdevice/by-name/cache",
+        "/dev/block/mmcblk0p28"
+      ],
+      "data": [
+        "/dev/block/bootdevice/by-name/userdata",
+        "/dev/block/mmcblk0p30"
+      ],
+      "recovery": [
+        "/dev/block/bootdevice/by-name/recovery",
+        "/dev/block/mmcblk0p29"
+      ],
+      "boot": [
+        "/dev/block/bootdevice/by-name/boot",
+        "/dev/block/mmcblk0p25"
+      ]
+    },
+    "architecture": "armeabi-v7a",
+    "id": "gucci"
+  }
+]
