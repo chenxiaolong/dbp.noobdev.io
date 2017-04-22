@@ -229,6 +229,9 @@ def get_builds(git_dir, files_dir):
                 commit = log[j]
                 subject = log[j + 1]
 
+                if sys.version_info.major == 2:
+                    subject = subject.decode('UTF-8')
+
                 build['commits'].append({
                     'id': commit,
                     'short_id': commit[0:7],
