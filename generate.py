@@ -19,6 +19,8 @@
 
 # Generate changelogs and create HTML output
 
+from __future__ import division
+
 import argparse
 import distutils.core
 import errno
