@@ -242,23 +242,6 @@
                                         </p>
                                     {% endif %}
                                 {% endif %}
-
-                                <hr>
-
-                                <h4>Encryption</h4>
-
-                                <p>
-                                    <span class="device-info-key">Supported:</span>
-                                    {% if device.crypto is defined and device.crypto.supported %}yes{% else %}no{% endif %}
-                                </p>
-                                {% if device.crypto is defined and device.crypto.supported %}
-                                    {% if device.crypto.header_path is defined and device.crypto.header_path %}
-                                        <p>
-                                            <span class="device-info-key">Crypto header path:</span>
-                                            <code>{{ device.crypto.header_path | e }}</code>
-                                        </p>
-                                    {% endif %}
-                                {% endif %}
                             </div>
                         </div>
                     </div>
