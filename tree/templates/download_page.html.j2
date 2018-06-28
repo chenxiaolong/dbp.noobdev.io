@@ -27,6 +27,18 @@
                     Also, state whether the ROM reboots or hangs at the manufaturer logo or the ROM's boot animation. If the ROM reboots, please state whether it reboots into recovery or not.</p>
                 </div>
             </div>
+
+            <div class="panel panel-danger">
+                <div class="panel-heading">
+                    <h2 class="panel-title">Boot image corruption notice</h2>
+                </div>
+                <div class="panel-body">
+                    <p><b>WARNING</b></p>
+                    <p>An issue was identified in older versions of DualBootPatcher between <code>9.3.0.r412.ga0d7059c</code> and <code>9.3.0.r765.ga8e154db</code> that caused the boot image to be corrupted during installation of a ZIP package. This only affected ZIPs that modified the existing kernel, such as Magisk or Anykernel-based packages.
+                    <br /><br />
+                    If you used any of the affected versions, it is <b>strongly recommended to update to <code>9.3.0.r770.g5561b1d9</code> or newer and repatch and reflash every ROM</b>. The in-app flashing feature will block the installation of any ZIP patched with an affected version of DualBootPatcher.
+                </div>
+            </div>
         </div>
 
         <div class="container" id="builds">
